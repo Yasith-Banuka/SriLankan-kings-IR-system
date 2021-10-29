@@ -3,12 +3,22 @@ def config():
       "settings" :{
         "analysis": {
           "analyzer": {
-            "sinhala": {
+            "default": {
+              "tokenizer": "standard",
+              "filter":[
+                "sinhala_stemmer",
+                "synonym",
+                "stopwords"
+
+              ]
+            },
+            "default_search": {
               "tokenizer": "whitespace",
-                "filter":[
-                  "sinhala_stemmer",
-                  "custom_stems"
-                ]
+              "filter":[
+                "sinhala_stemmer",
+                "synonym",
+                "stopwords"
+              ]                
               }
             },
             "filter": {
@@ -16,32 +26,132 @@ def config():
                 "type": "hunspell",
                 "locale": "si_LK"
               },
-              "custom_stems": {
-                "type": "stemmer_override",
-                "rules": [
-                  "පුතා, පුත්‍රයායි, පුත්‍රයාය => පුත්‍රයා",
-                  "පළමුවන​, පළවන => Iවන"
-                ]
+              "synonym": {
+                "type": "synonym",
+                "synonyms_path": "srilankankings-filters/synonyms.txt"
+              },
+              "stopwords": {
+                "type": "stop",
+                "stopwords_path": "srilankankings-filters/stopwords.txt"
               }
             }
           }
         },
-      "mappings" : {
-        "properties" : {
-          "reign" : {
-            "type": "integer_range"
+"mappings" : {
+      "properties" : {
+        "Inscriptions" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
           },
-          "name": {
-            "type": "text",
-            "analyzer": "sinhala"
+          "analyzer" : "default"
+        },
+        "Temples built" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
           },
-          "claim to the throne": {
-            "type": "text",
-            "analyzer": "sinhala"
-          }
+          "analyzer" : "default"
+        },
+        "claim to the throne" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          },
+          "analyzer" : "default"
+        },
+        "description" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          },
+          "analyzer" : "default"
+        },
+        "end of reign" : {
+          "type" : "long"
+        },
+        "house" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          },
+          "analyzer" : "default"
+        },
+        "irrigation work" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          },
+          "analyzer" : "default"
+        },
+        "kingdom eng" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          },
+          "analyzer" : "default"
+        },
+        "kingdom sin" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          },
+          "analyzer" : "default"
+        },
+        "name" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          },
+          "analyzer" : "default"
+        },
+        "other constructions" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          },
+          "analyzer" : "default"
+        },
+        "reign" : {
+          "type" : "integer_range"
+        },
+        "start of reign" : {
+          "type" : "long"
         }
       }
     }
+  }
+  
     
 
 
