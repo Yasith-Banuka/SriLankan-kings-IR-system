@@ -36,6 +36,38 @@ def allFields(term):
     }
   }
 
+def autoComplete(term):
+  return {"multi_match" : {
+        "query": term,
+        "type": "phrase_prefix"
+    }
+  }
+
+def sinHighlight():
+  return {"fields": {
+      "name sin": {},
+      "house sin": {},
+      "kingdom sin": {},
+      "Temples sin": {},
+      "other constructions sin": {},
+      "Inscriptions sin": {},
+      "irrigation work sin": {}
+    }
+  }
+
+def engHighlight():
+  return {"fields": {
+      "name eng": {},
+      "house eng": {},
+      "kingdom eng": {},
+      "Temples eng": {},
+      "other constructions eng": {},
+      "Inscriptions eng": {},
+      "irrigation work eng": {}
+    }
+  }
+
+
 def sortByYear(order):
   return  {"_script":{  
          "type":"number",
@@ -87,18 +119,19 @@ def range(startYear, endYear):
 
 import pandas as pd
 
-df = pd.read_csv('SLRulers.csv',encoding='utf8')
-terms = []
-for index, row in df.iterrows():
-  try:
-    for index,term in enumerate(row['claim to the throne sin'].replace('.','  ').split()):
-      if re.search('.+\ගේ', term):
-        terms.append(row['claim to the throne sin'].split()[index+1])
-        break
-  except AttributeError:
-    continue
-#print(set(terms))
-with open("sample.json", "w",encoding='utf8') as outfile:
-    #json.dump(es.search(index='srilankan-kings', query= {"match": {'name': 'විජය'}}), outfile, ensure_ascii=False)
-    json.dump(list(set(terms)), outfile, ensure_ascii=False)
+# df = pd.read_csv('SLRulers.csv',encoding='utf8')
+# terms = []
+# for index, row in df.iterrows():
+#   try:
+#     for index,term in enumerate(row['claim to the throne sin'].replace('.','  ').split()):
+#       if re.search('.+\ගේ', term):
+#         terms.append(row['claim to the throne sin'].split()[index+1])
+#         break
+#   except AttributeError:
+#     continue
+# #print(set(terms))
+# with open("sample.json", "w",encoding='utf8') as outfile:
+#     #json.dump(es.search(index='srilankan-kings', query= {"match": {'name': 'විජය'}}), outfile, ensure_ascii=False)
+#     json.dump(list(set(terms)), outfile, ensure_ascii=False)
 
+print(re.sub(re.compile('st|nd|rd|th'),'','2st'))

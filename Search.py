@@ -54,7 +54,8 @@ def search(searchTerm):
         results = engSearch(searchTerm.lower())
     else:
         results = sinSearch(searchTerm)
-    return [results['hits']['hits'][i]['_source'] for i in range(len(results['hits']['hits']))]
+    #return [results['hits']['hits'][i]['_source'] for i in range(len(results['hits']['hits']))]
+    return results
     
 
 def engSearch(searchTerm):
@@ -81,7 +82,7 @@ def engSearch(searchTerm):
             if index>0:
                 print('2')
                 centuryInt = 0
-                century = terms[index-1].replace(['st','nd','rd','th'],'')
+                century = re.sub(re.compile('st|nd|rd|th'),'',terms[index-1])
                 if  terms[index-1] in Data.engCenturyMapper:
                     centuryInt = Data.sinCenturyMapper.index(terms[index-1]) +1
                 elif century.isdigit():
@@ -121,7 +122,7 @@ def engSearch(searchTerm):
     return es.search(index='srilankan-kings',query= Queries.bestMatch(searchTerm))
 
 def sinSearch(searchTerm):
-    keyword = es.search(index='srilankan-kings',query= Queries.allFields(searchTerm))
+    keyword = es.search(index='srilankan-kings',query= Queries.allFields(searchTerm),fields=["* sin"])
     if keyword["hits"]["total"]["value"]>0:
         print('keyword')
         return keyword
@@ -180,13 +181,36 @@ def sinSearch(searchTerm):
         #return Queries.boolQuery(searches)
     return es.search(index='srilankan-kings',query= Queries.bestMatch(searchTerm))
 
+def autocomplete(searchTerm):
+    if isEnglish(searchTerm):
+        results = es.search(index='srilankan-kings',query= Queries.autoComplete(searchTerm),highlight=Queries.engHighlight())
+    else:
+        results = es.search(index='srilankan-kings',query= Queries.autoComplete(searchTerm),highlight=Queries.sinHighlight())
+    #return [results['hits']['hits'][i] for i in range(len(results['hits']['hits']))]
+    candidates = []
+    for res in results['hits']['hits']:
+        try:
+            highlights = res['highlight']
+        except:
+            continue
+        candidates.extend([item for sublist in list(highlights.values()) for item in sublist])
+    final = []
+    for candidate in candidates:
+        if ',' in candidate:
+            for i in candidate.split(','):
+                if '<em>' in i:
+                    final.append(i.replace('<em>','').replace('</em>',''))
+                    break
+        else:
+            final.append(candidate.replace('<em>','').replace('</em>',''))
+    return final
 
-#results = search('daughter of mutasiva') 
-#x = [results['hits']['hits'][i]['_source'] for i in range(len(results['hits']['hits']))]
-# with open("sample.json", "w",encoding='utf8') as outfile:
-#     #json.dump(es.search(index='srilankan-kings', query= {"match": {'name': 'විජය'}}), outfile, ensure_ascii=False)
-#     #json.dump(es.search(index='srilankan-kings',query= sinSearch('IIIවන විජයබාහු'), sort=sortFields), outfile, ensure_ascii=False)
-#     json.dump(x, outfile, ensure_ascii=False)
+# results1 = search('king who built Tissa Wewa') 
+# x = [results1['hits']['hits'][i]['_source'] for i in range(len(results1['hits']['hits']))]
+with open("sample.json", "w",encoding='utf8') as outfile:
+    #json.dump(es.search(index='srilankan-kings', query= {"match": {'name': 'විජය'}}), outfile, ensure_ascii=False)
+    json.dump(autocomplete('parak'), outfile, ensure_ascii=False)
+    #json.dump(x, outfile, ensure_ascii=False)
 
 
 
