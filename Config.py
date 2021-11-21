@@ -94,9 +94,6 @@ def config():
           "analyzer" : "english",
           "search_analyzer" : "english"
         },
-        "end of reign" : {
-          "type" : "text"
-        },
         "house eng" : {
           "type" : "text",
           "fields" : {
@@ -154,9 +151,6 @@ def config():
         },
         "reign" : {
           "type" : "integer_range"
-        },
-        "start of reign" : {
-          "type" : "text"
         },
         "years of reign" : {
           "type" : "long"

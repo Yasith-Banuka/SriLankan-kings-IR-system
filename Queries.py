@@ -36,6 +36,22 @@ def allFields(term):
     }
   }
 
+def sinKeywordSearch(term):
+  return {"multi_match" : {
+        "query": term,
+        "operator": "AND",
+        "fields": ["name sin^3", "house sin", "kingdom sin", "Temples sin", "other constructions sin", "Inscriptions sin", "irrigation work sin", "claim to the throne sin"]
+    }
+  }
+
+def engKeywordSearch(term):
+  return {"multi_match" : {
+        "query": term,
+        "operator": "AND",
+        "fields": ["name eng^3", "house eng", "kingdom eng", "Temples eng", "other constructions eng", "Inscriptions eng", "irrigation work eng", "claim to the throne eng"]
+    }
+  }
+
 def autoComplete(term):
   return {"multi_match" : {
         "query": term,

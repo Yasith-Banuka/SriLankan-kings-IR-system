@@ -15,6 +15,30 @@
   <link rel="stylesheet" href="/resources/demos/style.css">
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+
+  </script>
+  <style>
+    .sinhala {
+      display: block;
+    }
+
+    .sinhala.is-sin { display: none; } 
+    .english {
+      display: none;
+    }
+
+    .english.is-eng { display: block; }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      column-count: 2;
+      flex-wrap: wrap;
+      height: 510px;
+    } 
+  </style>
+
 </head>
 
 <body style="padding-left: 5em;">
@@ -24,8 +48,25 @@
     <p><div id="result"></div></p>
     <p><input type="submit" value="submit" name="form_1" /></p>
   </form>
-
+  <p><button class="toggle-button">Sinhala</button></p>
   <script>
+    var $toggleButton = $('.toggle-button');
+    var $sinhala = $('.sinhala');
+    var $english = $('.english');
+    // use state variable to keep track
+    var isEnglish = false;
+
+    $toggleButton.on( 'click', function() {
+      console.log('enter function')
+      isEnglish = !isEnglish;
+      $('.sinhala').toggleClass('is-sin');
+      $('.english').toggleClass('is-eng');
+      if ( isEnglish ) {
+        $toggleButton.text('English');
+      } else {
+        $toggleButton.text('Sinhala');
+      }
+    });
     const $source = document.querySelector('#source');
     const $result = document.querySelector('#result');
 
@@ -71,29 +112,118 @@
         $("#source").val(data);
     });
 
-
+    function changeLanguage(lang) {
+      location.hash = lang;
+      location.reload();
+    }
 
   </script>
 
 
-  <!-- <div class="row"> -->
-    <div class="col-sm-6">
-      <div class="card" style="width: 50rem;">
-        {% for each in results %}
-        <div class="card border-dark mb-3" style="width: 50rem;">
-          <div class="card-body">
-            <!-- {% for key, value in each.items() %}
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">{{ value | safe}}</li>
-              {% endfor %}
-            </ul> -->
-            <li class="list-group-item">{{ each['name eng']}}, {{each['name sin']}}</li>
-          </div>
+  <div class="sinhala">
+    {% for each in results %}
+      <div class="card border-dark mb-3" style="width: 150rem;">
+        <div class="card-header">{{each['name sin']}}</div>
+        <div class="card-body">
+          <table>
+            <tr>
+              <td>රාජධානිය</td>
+              <td>{{each['kingdom sin']}}</td>
+            </tr>
+            {% if each['house sin'] != "" %}
+              <tr>
+                <td>රාජවංශය</td>
+                <td>{{each['house sin']}}</td>
+              </tr>
+            {% endif %}
+            <tr>
+              <td>පාලන කාලය</td>
+              <td>{{each['reign sin']}}</td>
+            </tr>
+            {% if each['Temples sin'] != "" %}
+              <tr>
+                <td>ඉදිකල විහාරස්ඨාන</td>
+                <td>{{each['Temples sin']}}</td>
+              </tr>
+            {% endif %}
+            {% if each['irrigation work sin'] != "" %}
+              <tr>
+                <td>ඉදිකල වාරිමාර්ග</td>
+                <td>{{each['irrigation work sin']}}</td>
+              </tr>
+            {% endif %}
+            {% if each['Inscriptions sin'] != "" %}
+              <tr>
+                <td>සෙල් ලිපි සහ සන්නස්</td>
+                <td>{{each['Inscriptions sin']}}</td>
+              </tr>
+            {% endif %}
+            {% if each['other constructions sin'] != "" %}
+            <tr>
+              <td>වෙනත් ඉදිකිරීම්</td>
+              <td>{{each['other constructions sin']}}</td>
+            </tr>
+            {% endif %}
+            {% if each['description'] != "" %}
+            <tr>
+              <td>වැදගත් තොරතුරු</td>
+              <td>{{each['description']}}</td>
+            </tr>
+            {% endif %}
+          </table>                     
         </div>
-        {% endfor %}
       </div>
-    </div>
-
+    {% endfor %}
+  </div>
+  <div class="english">
+    {% for each in results %}
+      <div class="card border-dark mb-3" style="width: 150rem;">
+        <div class="card-header">{{each['name eng']}}</div>
+        <div class="card-body">
+          <table>
+            <tr>
+              <td>kingdom</td>
+              <td>{{each['kingdom eng']}}</td>
+            </tr>
+            {% if each['house eng'] != "" %}
+              <tr>
+                <td>House</td>
+                <td>{{each['house eng']}}</td>
+              </tr>
+            {% endif %}
+            <tr>
+              <td>Reigning period</td>
+              <td>{{each['reign eng']}}</td>
+            </tr>
+            {% if each['Temples eng'] != "" %}
+              <tr>
+                <td>Temples</td>
+                <td>{{each['Temples eng']}}</td>
+              </tr>
+            {% endif %}
+            {% if each['irrigation work eng'] != "" %}
+              <tr>
+                <td>Irrigation work</td>
+                <td>{{each['irrigation work eng']}}</td>
+              </tr>
+            {% endif %}
+            {% if each['Inscriptions eng'] != "" %}
+              <tr>
+                <td>Inscriptions</td>
+                <td>{{each['Inscriptions eng']}}</td>
+              </tr>
+            {% endif %}
+            {% if each['other constructions eng'] != "" %}
+            <tr>
+              <td>Other constriuctions</td>
+              <td>{{each['other constructions eng']}}</td>
+            </tr>
+            {% endif %}
+          </table>  
+        </div>
+      </div>
+    {% endfor %}
+  </div>
     <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>

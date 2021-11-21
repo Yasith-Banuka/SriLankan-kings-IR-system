@@ -54,12 +54,40 @@ def search(searchTerm):
         results = engSearch(searchTerm.lower())
     else:
         results = sinSearch(searchTerm)
-    #return [results['hits']['hits'][i]['_source'] for i in range(len(results['hits']['hits']))]
-    return results
+    return process(results)
+    #return results
     
+def process(results):
+    resultList = [results['hits']['hits'][i]['_source'] for i in range(len(results['hits']['hits']))]
+
+    for index,res in enumerate(resultList):
+
+        sinStart = str(abs(res['reign']['gte']))
+        engStart = str(abs(res['reign']['gte']))
+        if res['reign']['gte']<0:
+            sinStart = 'ක්‍රි.පූ. '+ sinStart
+            engStart = engStart + ' B.C.'
+        elif res['reign']['gte']<100:
+            sinStart = 'ක්‍රි.ව. '+ sinStart
+            engStart = engStart + ' A.D.'
+
+        sinEnd = str(abs(res['reign']['lte']))
+        engEnd = str(abs(res['reign']['lte']))
+        if res['reign']['lte']<0:
+            sinEnd = 'ක්‍රි.පූ. ' + sinEnd
+            engEnd = engEnd + ' B.C.'
+        elif res['reign']['lte']<100:
+            sinStart = 'ක්‍රි.ව. '+ sinStart
+            engStart = engStart + ' A.D.'
+
+        sinReign =  sinStart+ ' - '+ sinEnd
+        engReign =  engStart + ' - '+ engEnd
+        resultList[index]['reign sin'] = sinReign
+        resultList[index]['reign eng'] = engReign
+    return resultList
 
 def engSearch(searchTerm):
-    keyword = es.search(index='srilankan-kings',query= Queries.allFields(searchTerm))
+    keyword = es.search(index='srilankan-kings', query= Queries.engKeywordSearch(searchTerm))
     if keyword["hits"]["total"]["value"]>0:
         print('keyword')
         return keyword
@@ -115,20 +143,24 @@ def engSearch(searchTerm):
                     sortFields.append(Queries.sort('years of reign', 'asc'))
                     continue
             enumSearch(term, 'eng')
-    #sortFields.append("_score")
+    sortFields.append("_score")
     if len(searches)>0:
-        return es.search(index='srilankan-kings',query= Queries.boolQuery(searches))
+        return es.search(index='srilankan-kings',query= Queries.boolQuery(searches), sort=sortFields)
         #return Queries.boolQuery(searches)
-    return es.search(index='srilankan-kings',query= Queries.bestMatch(searchTerm))
+    return es.search(index='srilankan-kings',query= Queries.bestMatch(searchTerm), sort=sortFields)
 
 def sinSearch(searchTerm):
-    keyword = es.search(index='srilankan-kings',query= Queries.allFields(searchTerm),fields=["* sin"])
+    #keyword search to check if any records match the query exactly
+    keyword = es.search(index='srilankan-kings',query= Queries.sinKeywordSearch(searchTerm),fields=["* sin"], analyzer='default')
     if keyword["hits"]["total"]["value"]>0:
         print('keyword')
         return keyword
+    
     terms = searchTerm.split(' ')
+    
+    #search through each term
     for index, term in enumerate(terms):
-        
+        #check if term corresponds to a sort intent based on reign year
         if term in Data.sinFirstMapper:
             sortFields.append(Queries.sortByYear('asc'))
             continue
@@ -136,10 +168,13 @@ def sinSearch(searchTerm):
             print('c')
             sortFields.append(Queries.sortByYear('desc'))
             continue
+
+        #check if query is a relationship-based query
         if re.search('.+ගේ', term):
-            
             searches.append(Queries.fuzzyQuery('claim to the throne sin',searchTerm))
             break
+
+        #check if term relates to a time period
         if re.search('සියව.+', term):
             print('a')
             if index>0:
@@ -165,7 +200,9 @@ def sinSearch(searchTerm):
             else:
                 searches.append(Queries.year(int(term)))
             continue
+
         if not synonymSearch(term, 'sin'):
+            #check if term corresponds to a sort based on number of years of reign
             if index>1:
                 if terms[index-1] in Data.sinMostMapper:
                     sortFields.append(Queries.sort('years of reign', 'desc'))
@@ -177,15 +214,15 @@ def sinSearch(searchTerm):
             enumSearch(term, 'sin')
     #sortFields.append("_score")
     if len(searches)>0:
-        return es.search(index='srilankan-kings',query= Queries.boolQuery(searches))
+        return es.search(index='srilankan-kings',query= Queries.boolQuery(searches), sort=sortFields)
         #return Queries.boolQuery(searches)
-    return es.search(index='srilankan-kings',query= Queries.bestMatch(searchTerm))
+    return es.search(index='srilankan-kings',query= Queries.bestMatch(searchTerm), sort=sortFields)
 
 def autocomplete(searchTerm):
     if isEnglish(searchTerm):
-        results = es.search(index='srilankan-kings',query= Queries.autoComplete(searchTerm),highlight=Queries.engHighlight())
+        results = es.search(index='srilankan-kings',query= Queries.autoComplete(searchTerm),highlight=Queries.engHighlight(),fields=["* eng"])
     else:
-        results = es.search(index='srilankan-kings',query= Queries.autoComplete(searchTerm),highlight=Queries.sinHighlight())
+        results = es.search(index='srilankan-kings',query= Queries.autoComplete(searchTerm),highlight=Queries.sinHighlight(),fields=["* sin"])
     #return [results['hits']['hits'][i] for i in range(len(results['hits']['hits']))]
     candidates = []
     for res in results['hits']['hits']:
@@ -205,11 +242,12 @@ def autocomplete(searchTerm):
             final.append(candidate.replace('<em>','').replace('</em>',''))
     return final
 
-# results1 = search('king who built Tissa Wewa') 
-# x = [results1['hits']['hits'][i]['_source'] for i in range(len(results1['hits']['hits']))]
-with open("sample.json", "w",encoding='utf8') as outfile:
-    #json.dump(es.search(index='srilankan-kings', query= {"match": {'name': 'විජය'}}), outfile, ensure_ascii=False)
-    json.dump(autocomplete('parak'), outfile, ensure_ascii=False)
+results1 = search('final rulers of polonnaruwa') 
+# x = [results1['hits']['hits'][i]['_source']['name eng'] for i in range(len(results1['hits']['hits']))]
+# print('\n'.join(x))
+# with open("sample.json", "w",encoding='utf8') as outfile:
+#     #json.dump(es.search(index='srilankan-kings', query= {"match": {'name': 'විජය'}}), outfile, ensure_ascii=False)
+#     json.dump(search('parakramabahu'), outfile, ensure_ascii=False)
     #json.dump(x, outfile, ensure_ascii=False)
 
 
