@@ -1,8 +1,6 @@
 <html>
 
 <head>
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -12,12 +10,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-  <!-- <link rel="stylesheet" href="/resources/demos/style.css"> -->
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script>
 
-  </script>
   <style>
     .sinhala {
       display: none;
@@ -49,7 +44,6 @@
       padding: 12px 15px;
     }
     th {
-      /* background: Linen; */
       width: 20rem;
       text-align: right;
       border-right: 1px solid #ddd;
@@ -75,7 +69,7 @@
     <h1 style="text-align: center;">Sri Lankan Rulers</h1>
     <p style="text-align: center;"><input id="source" type="search" name="query" placeholder="Search"/><button class="search-button" style="margin: 12px 15px;">search</button></p>
     <p><div id="result" hidden></div></p>
-    <!-- <p style="text-align: center;"><input type="submit" value="search" name="form_1"/></p> -->
+
   </form>
 
   <script>
@@ -172,7 +166,7 @@
   <div class="sinhala">
     {% for each in results %}
       <div class="card border-dark mb-3" style="width: 150rem;">
-        <div class="card-header"><h2>{{each['name sin']}}</h2></div>
+        <div class="card-header" style="text-align: center;"><h2>{{each['name sin']}}</h2></div>
         <div class="card-body">
           <table>
             <tr>
@@ -186,8 +180,12 @@
               </tr>
             {% endif %}
             <tr>
-              <th>පාලන කාලය</th>
+              <th>පාලන අවුරුදු</th>
               <td>{{each['reign sin']}}</td>
+            </tr>
+            <tr>
+              <th>පාලන කාලය</th>
+              <td>{{each['years of reign']}}</td>
             </tr>
             {% if each['Temples sin'] != "" %}
               <tr>
@@ -233,7 +231,7 @@
   <div class="english">
     {% for each in results %}
       <div class="card border-dark mb-3" style="width: 150rem;">
-        <div class="card-header">{{each['name eng']}}</div>
+        <div class="card-header" style="text-align: center;"><h2>{{each['name eng']}}</h2></div>
         <div class="card-body">
           <table>
             <tr>
@@ -249,6 +247,10 @@
             <tr>
               <th>Reigning period</th>
               <td>{{each['reign eng']}}</td>
+            </tr>
+            <tr>
+              <th>years of reign</th>
+              <td>{{each['years of reign']}}</td>
             </tr>
             {% if each['Temples eng'] != "" %}
               <tr>

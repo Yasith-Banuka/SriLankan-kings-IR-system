@@ -1,5 +1,3 @@
-import re
-import json
 def exactQuery(field,term,analyzer):
   return {"match" : {
           field : {

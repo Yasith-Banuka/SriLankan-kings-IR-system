@@ -8,12 +8,14 @@ searches=[]
 sortFields=[]
 es = Elasticsearch()
 
+#Function to check for misspeling and availability in a list
 def fuzzySearch(term, list):
     for item in list:
         if editdistance.eval(item,term)<2:
             return True
     return False
 
+#Function to check for synonyms in construction fields
 def synonymSearch(searchTerm, language):
     if language=='sin':
         for key, value in Data.sinConstructionSynonyms:
@@ -27,6 +29,7 @@ def synonymSearch(searchTerm, language):
             return True
     return False
 
+#Function to check for availability in house or kingdom fields
 def enumSearch(searchTerm, language):
     if language=='sin':
         for i in range(2):
@@ -42,6 +45,7 @@ def enumSearch(searchTerm, language):
                 return True
     return False
 
+#Function to check for the language of the query
 def isEnglish(phrase):
     try:
         phrase.encode(encoding='utf-8').decode('ascii')
@@ -50,7 +54,7 @@ def isEnglish(phrase):
     else:
         return True
 
-
+#Main search function
 def search(searchTerm):
     searches.clear()
     sortFields.clear()
@@ -59,8 +63,8 @@ def search(searchTerm):
     else:
         results = sinSearch(searchTerm)
     return process(results)
-    #return results
-    
+
+#Function for post-processing. Adds affixes to reiging period
 def process(results):
     resultList = [results['hits']['hits'][i]['_source'] for i in range(len(results['hits']['hits']))]
 
@@ -90,6 +94,7 @@ def process(results):
         resultList[index]['reign eng'] = engReign
     return resultList
 
+#Function for english searching
 def engSearch(searchTerm):
     keyword = es.search(index='srilankan-kings', query= Queries.engKeywordSearch(searchTerm,Data.engAnalyzer))
     if keyword["hits"]["total"]["value"]>0:
@@ -142,9 +147,9 @@ def engSearch(searchTerm):
     sortFields.append("_score")
     if len(searches)>0:
         return es.search(index='srilankan-kings',query= Queries.boolQuery(searches), sort=sortFields)
-        #return Queries.boolQuery(searches)
     return es.search(index='srilankan-kings',query= Queries.bestMatch(searchTerm,Data.engAnalyzer), sort=sortFields)
 
+#Function for Sinhala searching
 def sinSearch(searchTerm):
     #keyword search to check if any records match the query exactly
     keyword = es.search(index='srilankan-kings',query= Queries.sinKeywordSearch(searchTerm,Data.sinAnalyzer), fields=["* sin"])
@@ -206,12 +211,13 @@ def sinSearch(searchTerm):
         return es.search(index='srilankan-kings',query= Queries.boolQuery(searches), sort=sortFields)
     return es.search(index='srilankan-kings',query= Queries.bestMatch(searchTerm,Data.sinAnalyzer), sort=sortFields)
 
+#Function for autocomplete functionality
 def autocomplete(searchTerm):
     if isEnglish(searchTerm):
         results = es.search(index='srilankan-kings',query= Queries.autoComplete(searchTerm,Data.engAnalyzer),highlight=Queries.engHighlight(),fields=["* eng"])
     else:
         results = es.search(index='srilankan-kings',query= Queries.autoComplete(searchTerm,Data.sinAnalyzer),highlight=Queries.sinHighlight(),fields=["* sin"])
-    #return [results['hits']['hits'][i] for i in range(len(results['hits']['hits']))]
+
     candidates = []
     for res in results['hits']['hits']:
         try:

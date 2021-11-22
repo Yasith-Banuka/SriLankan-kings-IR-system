@@ -2,6 +2,8 @@
 
 This is an Information retrieval system for Sri Lankan rulers built using elasticsearch and flask. It supports Sinhala and English.
 
+<br/>
+
 # Running the system
 
 ## Prerequisites
@@ -34,6 +36,7 @@ editdistnce (python library)
 
 7. Visit [localhost:5000](localhost:5000)
 
+<br/>
 
 # Repository structure
 
@@ -46,7 +49,10 @@ editdistnce (python library)
     ├── Config.py - Elasticsearch index configuration and settings
     ├── Data.py - Data for the search algorithm
     ├── Queries.py - Elasticsearch queries for searching
+    ├── Scraper.ipynb - Data scraping functionality
     └── Search.py - Search algorithms
+
+<br/>
 
 # Data
 
@@ -66,8 +72,10 @@ The system holds the following data about the rulers (Some data may not be avail
 
 *Available in Sinhala and English
 
-Data was scraped using the Beautiful soup library, from [wikipedia](https://en.wikipedia.org/wiki/List_of_Sri_Lankan_monarchs) and other sources.
+Data was scraped using the Beautiful soup library, from [wikipedia](https://en.wikipedia.org/wiki/List_of_Sri_Lankan_monarchs) and data was added from other sources.
 The data was cleaned manually as language errors were present in some records.
+
+<br/>
 
 # Features
 
@@ -76,8 +84,18 @@ Bilingual - Both searching and results are avilable in Sinhala and English and c
 
 Autocomplete - The UI allows to complete your query based on what has already been typed
 
+Faceted search - Results can be filtered based on different fields
+
 Compound intent classification - The system can handle multiple intents and provide reults that cater to them
 
 Misspelling handling - Spelling mistakes are handled using fuzzy queries and edit-distance checking
 
 Synonym adaption - Usage of synonyms is accomodated so as to not hinder searching
+
+<br/>
+
+## Inspiration & ideas taken from
+
+https://github.com/iTharindu/SinhalaSongSearch
+
+https://github.com/soumilshah1995/AutoComplete-Input-Elastic-Search-Python
