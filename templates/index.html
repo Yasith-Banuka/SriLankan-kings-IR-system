@@ -12,7 +12,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-  <link rel="stylesheet" href="/resources/demos/style.css">
+  <!-- <link rel="stylesheet" href="/resources/demos/style.css"> -->
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script>
@@ -20,12 +20,14 @@
   </script>
   <style>
     .sinhala {
-      display: block;
+      display: none;
+      padding: 12px 15px;
     }
 
-    .sinhala.is-sin { display: none; } 
+    .sinhala.is-sin { display: block; } 
     .english {
       display: none;
+      padding: 12px 15px;
     }
 
     .english.is-eng { display: block; }
@@ -37,24 +39,70 @@
       flex-wrap: wrap;
       height: 510px;
     } 
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    td, th {
+      margin: 25px 0;
+      height: 2rem;
+      padding: 12px 15px;
+    }
+    th {
+      /* background: Linen; */
+      width: 20rem;
+      text-align: right;
+      border-right: 1px solid #ddd;
+    }
+
+    tr { 
+      border-bottom: 1px solid #ddd;
+    }
+    tr:first-child {
+      border-top: none;
+    }
+    tr:last-child {
+      border-bottom: none;
+    }
   </style>
 
 </head>
 
-<body style="padding-left: 5em;">
-  <form action="http://localhost:5000/" method="post" style=>
-    <p>Enter Name:</p>
-    <p><input id="source" type="text" name="nm" placeholder="Search" /></p>
-    <p><div id="result"></div></p>
-    <p><input type="submit" value="submit" name="form_1" /></p>
+<body style="padding: 5em;">
+  <p><button class="toggle-button" style="margin: 12px 15px;">English</button></p>
+  <form action="http://localhost:5000/" method="post" name = "theForm">
+    
+    <h1 style="text-align: center;">Sri Lankan Rulers</h1>
+    <p style="text-align: center;"><input id="source" type="search" name="query" placeholder="Search"/><button class="search-button" style="margin: 12px 15px;">search</button></p>
+    <p><div id="result" hidden></div></p>
+    <!-- <p style="text-align: center;"><input type="submit" value="search" name="form_1"/></p> -->
   </form>
-  <p><button class="toggle-button">Sinhala</button></p>
+
   <script>
     var $toggleButton = $('.toggle-button');
+    var $searchButton = $('.search-button');
     var $sinhala = $('.sinhala');
     var $english = $('.english');
-    // use state variable to keep track
     var isEnglish = false;
+
+    $(window).load(function() {
+      if (sessionStorage) {
+        lang = sessionStorage.getItem("lang");
+        if (lang == "eng") {
+          isEnglish = !isEnglish;
+          $('.english').toggleClass('is-eng');
+          $toggleButton.text('Sinhala');
+        } else {
+          $('.sinhala').toggleClass('is-sin');
+        }
+      } else {
+        $('.sinhala').toggleClass('is-sin');
+      }
+    });
+
+    $searchButton.on( 'click', function() {
+      document.theForm.submit();
+    });
 
     $toggleButton.on( 'click', function() {
       console.log('enter function')
@@ -62,9 +110,15 @@
       $('.sinhala').toggleClass('is-sin');
       $('.english').toggleClass('is-eng');
       if ( isEnglish ) {
-        $toggleButton.text('English');
-      } else {
+        if (sessionStorage) {
+          sessionStorage.setItem("lang", "eng");
+        }
         $toggleButton.text('Sinhala');
+      } else {
+        if (sessionStorage) {
+          sessionStorage.setItem("lang", "sin");
+        }
+        $toggleButton.text('English');
       }
     });
     const $source = document.querySelector('#source');
@@ -75,7 +129,7 @@
         console.log(e.target.value);
 
         $.ajax({
-            url: "/pipe",
+            url: "/autocomplete",
             type : 'POST',
             cache: false,
             dataType: "json",
@@ -83,12 +137,7 @@
             success: function(html)
             {
                 console.log(html)
-                // var data = html.buckets
                 var _ = html
-
-                // $.each(data, (index, value)=>{
-                //     _.push(value.key)
-                // });
                 console.log(_)
                 $( "#source" ).autocomplete({
                     source: html
@@ -97,8 +146,8 @@
         });
     }
 
-    $source.addEventListener('input', typeHandler) // register for oninput
-    $source.addEventListener('propertychange', typeHandler) // for IE8
+    $source.addEventListener('input', typeHandler)
+    $source.addEventListener('propertychange', typeHandler)
 
     function btn_submit()
     {
@@ -123,50 +172,56 @@
   <div class="sinhala">
     {% for each in results %}
       <div class="card border-dark mb-3" style="width: 150rem;">
-        <div class="card-header">{{each['name sin']}}</div>
+        <div class="card-header"><h2>{{each['name sin']}}</h2></div>
         <div class="card-body">
           <table>
             <tr>
-              <td>රාජධානිය</td>
+              <th>රාජධානිය</th>
               <td>{{each['kingdom sin']}}</td>
             </tr>
             {% if each['house sin'] != "" %}
               <tr>
-                <td>රාජවංශය</td>
+                <th>රාජවංශය</th>
                 <td>{{each['house sin']}}</td>
               </tr>
             {% endif %}
             <tr>
-              <td>පාලන කාලය</td>
+              <th>පාලන කාලය</th>
               <td>{{each['reign sin']}}</td>
             </tr>
             {% if each['Temples sin'] != "" %}
               <tr>
-                <td>ඉදිකල විහාරස්ඨාන</td>
+                <th>ඉදිකල විහාරස්ඨාන</th>
                 <td>{{each['Temples sin']}}</td>
               </tr>
             {% endif %}
             {% if each['irrigation work sin'] != "" %}
               <tr>
-                <td>ඉදිකල වාරිමාර්ග</td>
+                <th>ඉදිකල වාරිමාර්ග</th>
                 <td>{{each['irrigation work sin']}}</td>
               </tr>
             {% endif %}
             {% if each['Inscriptions sin'] != "" %}
               <tr>
-                <td>සෙල් ලිපි සහ සන්නස්</td>
+                <th>සෙල් ලිපි සහ සන්නස්</th>
                 <td>{{each['Inscriptions sin']}}</td>
               </tr>
             {% endif %}
             {% if each['other constructions sin'] != "" %}
             <tr>
-              <td>වෙනත් ඉදිකිරීම්</td>
+              <th>වෙනත් ඉදිකිරීම්</th>
               <td>{{each['other constructions sin']}}</td>
+            </tr>
+            {% endif %}
+            {% if each['claim to the throne sin'] != "" %}
+            <tr>
+              <th>සිහසුනට හිමිකම</th>
+              <td>{{each['claim to the throne sin']}}</td>
             </tr>
             {% endif %}
             {% if each['description'] != "" %}
             <tr>
-              <td>වැදගත් තොරතුරු</td>
+              <th>වැදගත් තොරතුරු</th>
               <td>{{each['description']}}</td>
             </tr>
             {% endif %}
@@ -182,41 +237,47 @@
         <div class="card-body">
           <table>
             <tr>
-              <td>kingdom</td>
+              <th>kingdom</th>
               <td>{{each['kingdom eng']}}</td>
             </tr>
             {% if each['house eng'] != "" %}
               <tr>
-                <td>House</td>
+                <th>House</th>
                 <td>{{each['house eng']}}</td>
               </tr>
             {% endif %}
             <tr>
-              <td>Reigning period</td>
+              <th>Reigning period</th>
               <td>{{each['reign eng']}}</td>
             </tr>
             {% if each['Temples eng'] != "" %}
               <tr>
-                <td>Temples</td>
+                <th>Temples</th>
                 <td>{{each['Temples eng']}}</td>
               </tr>
             {% endif %}
             {% if each['irrigation work eng'] != "" %}
               <tr>
-                <td>Irrigation work</td>
+                <th>Irrigation work</th>
                 <td>{{each['irrigation work eng']}}</td>
               </tr>
             {% endif %}
             {% if each['Inscriptions eng'] != "" %}
               <tr>
-                <td>Inscriptions</td>
+                <th>Inscriptions</th>
                 <td>{{each['Inscriptions eng']}}</td>
               </tr>
             {% endif %}
             {% if each['other constructions eng'] != "" %}
             <tr>
-              <td>Other constriuctions</td>
+              <th>Other constriuctions</th>
               <td>{{each['other constructions eng']}}</td>
+            </tr>
+            {% endif %}
+            {% if each['claim to the throne sin'] != "" %}
+            <tr>
+              <th>Claim to the throne</th>
+              <td>{{each['claim to the throne eng']}}</td>
             </tr>
             {% endif %}
           </table>  
@@ -224,13 +285,4 @@
       </div>
     {% endfor %}
   </div>
-    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script> -->
 </body>

@@ -2,24 +2,28 @@ import editdistance
 import Queries
 import Data
 import re
-import json
 from elasticsearch import Elasticsearch
+
 searches=[]
 sortFields=[]
 es = Elasticsearch()
 
+def fuzzySearch(term, list):
+    for item in list:
+        if editdistance.eval(item,term)<2:
+            return True
+    return False
 
 def synonymSearch(searchTerm, language):
     if language=='sin':
-        for type in Data.sinConstructionSynonyms:
-            if searchTerm in type[0]:
-                print('6')
-                searches.append(Queries.nonEmpty(type[1]))
+        for key, value in Data.sinConstructionSynonyms:
+            if fuzzySearch(searchTerm, key):
+                searches.append(Queries.nonEmpty(value))
                 return True
         return False
-    for type in Data.engConstructionSynonyms:
-        if searchTerm in type:
-            searches.append(Queries.nonEmpty(Data.engConstructionSynonyms[type]))
+    for key, value in Data.engConstructionSynonyms:
+        if fuzzySearch(searchTerm, key):
+            searches.append(Queries.nonEmpty(value))
             return True
     return False
 
@@ -27,14 +31,14 @@ def enumSearch(searchTerm, language):
     if language=='sin':
         for i in range(2):
             for item in Data.sinEnumLists[i]:
-                if editdistance.eval(item,searchTerm)<3:
-                    searches.append(Queries.exactQuery(Data.sinEnumFields[i],item))
+                if editdistance.eval(item,searchTerm)<2:
+                    searches.append(Queries.exactQuery(Data.sinEnumFields[i],item, Data.sinAnalyzer))
                     return True
         return False
     for i in range(2):
         for item in Data.engEnumLists[i]:
-            if editdistance.eval(item,searchTerm)<3:
-                searches.append(Queries.exactQuery(Data.engEnumFields[i],item))
+            if editdistance.eval(item,searchTerm)<2:
+                searches.append(Queries.exactQuery(Data.engEnumFields[i],item,Data.engAnalyzer))
                 return True
     return False
 
@@ -87,39 +91,32 @@ def process(results):
     return resultList
 
 def engSearch(searchTerm):
-    keyword = es.search(index='srilankan-kings', query= Queries.engKeywordSearch(searchTerm))
+    keyword = es.search(index='srilankan-kings', query= Queries.engKeywordSearch(searchTerm,Data.engAnalyzer))
     if keyword["hits"]["total"]["value"]>0:
-        print('keyword')
         return keyword
     terms = searchTerm.split(' ')
     for index, term in enumerate(terms):
         
-        if term in Data.engFirstMapper:
+        if fuzzySearch(term, Data.engFirstMapper):
             sortFields.append(Queries.sortByYear('asc'))
             continue
-        elif term in Data.engFinalMapper:
-            print('c')
+        if fuzzySearch(term, Data.engFinalMapper):
             sortFields.append(Queries.sortByYear('desc'))
             continue
-        if term in Data.engRelationshipMapper:
-            print('s')
-            searches.append(Queries.fuzzyQuery('claim to the throne eng',searchTerm))
+        if fuzzySearch(term, Data.engRelationshipMapper):
+            searches.append(Queries.fuzzyQuery('claim to the throne eng',searchTerm,Data.engAnalyzer))
             break
-        if term=='century':
-            print('a')
+        if editdistance.eval(term,'century')<2:
             if index>0:
-                print('2')
                 centuryInt = 0
                 century = re.sub(re.compile('st|nd|rd|th'),'',terms[index-1])
                 if  terms[index-1] in Data.engCenturyMapper:
                     centuryInt = Data.sinCenturyMapper.index(terms[index-1]) +1
                 elif century.isdigit():
-                    print('3')
                     centuryInt = int(century)
                 if centuryInt>0:
                     if index+1<len(terms):
                         if terms[index+1].replace('.','')=='bc':
-                            print('4')
                             searches.append(Queries.range(centuryInt*(-100),(centuryInt-1)*(-100)))
                             continue
                     searches.append(Queries.range((centuryInt-1)*100,centuryInt*100))
@@ -135,11 +132,10 @@ def engSearch(searchTerm):
             continue
         if not synonymSearch(term, 'eng'):
             if index>1:
-                if terms[index-1] in Data.engMostMapper:
+                if fuzzySearch(terms[index-1],Data.engMostMapper):
                     sortFields.append(Queries.sort('years of reign', 'desc'))
                     continue
-                elif terms[index-1] in Data.engLeastMapper:
-                    print('least')
+                elif fuzzySearch(terms[index-1],Data.engLeastMapper):
                     sortFields.append(Queries.sort('years of reign', 'asc'))
                     continue
             enumSearch(term, 'eng')
@@ -147,13 +143,12 @@ def engSearch(searchTerm):
     if len(searches)>0:
         return es.search(index='srilankan-kings',query= Queries.boolQuery(searches), sort=sortFields)
         #return Queries.boolQuery(searches)
-    return es.search(index='srilankan-kings',query= Queries.bestMatch(searchTerm), sort=sortFields)
+    return es.search(index='srilankan-kings',query= Queries.bestMatch(searchTerm,Data.engAnalyzer), sort=sortFields)
 
 def sinSearch(searchTerm):
     #keyword search to check if any records match the query exactly
-    keyword = es.search(index='srilankan-kings',query= Queries.sinKeywordSearch(searchTerm),fields=["* sin"], analyzer='default')
+    keyword = es.search(index='srilankan-kings',query= Queries.sinKeywordSearch(searchTerm,Data.sinAnalyzer), fields=["* sin"])
     if keyword["hits"]["total"]["value"]>0:
-        print('keyword')
         return keyword
     
     terms = searchTerm.split(' ')
@@ -161,35 +156,30 @@ def sinSearch(searchTerm):
     #search through each term
     for index, term in enumerate(terms):
         #check if term corresponds to a sort intent based on reign year
-        if term in Data.sinFirstMapper:
+        if fuzzySearch(term, Data.sinFirstMapper):
             sortFields.append(Queries.sortByYear('asc'))
             continue
-        elif term in Data.sinFinalMapper:
-            print('c')
+        if fuzzySearch(term, Data.sinFinalMapper):
             sortFields.append(Queries.sortByYear('desc'))
             continue
 
         #check if query is a relationship-based query
-        if re.search('.+ගේ', term):
-            searches.append(Queries.fuzzyQuery('claim to the throne sin',searchTerm))
+        if fuzzySearch(term, Data.sinRelationshipMapper):
+            searches.append(Queries.fuzzyQuery('claim to the throne sin',searchTerm,Data.sinAnalyzer))
             break
 
         #check if term relates to a time period
         if re.search('සියව.+', term):
-            print('a')
             if index>0:
-                print('2')
                 centuryInt = 0
                 century = terms[index-1].replace(u'වන','')
                 if  terms[index-1] in Data.sinCenturyMapper:
                     centuryInt = Data.sinCenturyMapper.index(terms[index-1]) +1
                 elif century.isdigit():
-                    print('3')
                     centuryInt = int(century)
                 if centuryInt>0:
                     if index>1:
                         if terms[index-2] in Data.BCSynonyms:
-                            print('4')
                             searches.append(Queries.range(centuryInt*(-100),(centuryInt-1)*(-100)))
                             continue
                     searches.append(Queries.range((centuryInt-1)*100,centuryInt*100))
@@ -204,25 +194,23 @@ def sinSearch(searchTerm):
         if not synonymSearch(term, 'sin'):
             #check if term corresponds to a sort based on number of years of reign
             if index>1:
-                if terms[index-1] in Data.sinMostMapper:
+                if fuzzySearch(terms[index-1],Data.sinMostMapper):
                     sortFields.append(Queries.sort('years of reign', 'desc'))
                     continue
-                elif terms[index-1] in Data.sinLeastMapper:
-                    print('least')
+                elif fuzzySearch(terms[index-1],Data.sinLeastMapper):
                     sortFields.append(Queries.sort('years of reign', 'asc'))
                     continue
             enumSearch(term, 'sin')
-    #sortFields.append("_score")
+    sortFields.append("_score")
     if len(searches)>0:
         return es.search(index='srilankan-kings',query= Queries.boolQuery(searches), sort=sortFields)
-        #return Queries.boolQuery(searches)
-    return es.search(index='srilankan-kings',query= Queries.bestMatch(searchTerm), sort=sortFields)
+    return es.search(index='srilankan-kings',query= Queries.bestMatch(searchTerm,Data.sinAnalyzer), sort=sortFields)
 
 def autocomplete(searchTerm):
     if isEnglish(searchTerm):
-        results = es.search(index='srilankan-kings',query= Queries.autoComplete(searchTerm),highlight=Queries.engHighlight(),fields=["* eng"])
+        results = es.search(index='srilankan-kings',query= Queries.autoComplete(searchTerm,Data.engAnalyzer),highlight=Queries.engHighlight(),fields=["* eng"])
     else:
-        results = es.search(index='srilankan-kings',query= Queries.autoComplete(searchTerm),highlight=Queries.sinHighlight(),fields=["* sin"])
+        results = es.search(index='srilankan-kings',query= Queries.autoComplete(searchTerm,Data.sinAnalyzer),highlight=Queries.sinHighlight(),fields=["* sin"])
     #return [results['hits']['hits'][i] for i in range(len(results['hits']['hits']))]
     candidates = []
     for res in results['hits']['hits']:
@@ -240,15 +228,8 @@ def autocomplete(searchTerm):
                     break
         else:
             final.append(candidate.replace('<em>','').replace('</em>',''))
-    return final
+    return list(set(final))
 
-results1 = search('final rulers of polonnaruwa') 
-# x = [results1['hits']['hits'][i]['_source']['name eng'] for i in range(len(results1['hits']['hits']))]
-# print('\n'.join(x))
-# with open("sample.json", "w",encoding='utf8') as outfile:
-#     #json.dump(es.search(index='srilankan-kings', query= {"match": {'name': 'විජය'}}), outfile, ensure_ascii=False)
-#     json.dump(search('parakramabahu'), outfile, ensure_ascii=False)
-    #json.dump(x, outfile, ensure_ascii=False)
 
 
 

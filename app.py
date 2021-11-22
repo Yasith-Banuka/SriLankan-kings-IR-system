@@ -1,30 +1,22 @@
-from elasticsearch import Elasticsearch
 from flask import Flask
-from flask import flash, render_template, request, redirect, jsonify
-import requests
-import re
+from flask import render_template, request
 import json
 
-from werkzeug.wrappers import Response
 from Search import search, autocomplete
 
-es = Elasticsearch([{'host': 'localhost', 'port':9200}])
 app = Flask(__name__)
 
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
     if request.method == 'POST':
-        results = search(request.form['nm'])
+        results = search(request.form['query'])
         return render_template('index.html', results = results)
     return render_template('index.html', results = '')
 
-@app.route('/pipe', methods=["GET", "POST"])
-def pipe():
+@app.route('/autocomplete', methods=["GET", "POST"])
+def auto():
     data = request.form.get("data")
-    payload = {}
-    headers= {}
-    url = "http://127.0.0.1:4000/autocomplete?query="+str(data)
     response = autocomplete(str(data))
     return json.dumps(response)
 

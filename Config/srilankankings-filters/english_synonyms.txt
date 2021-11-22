@@ -1,0 +1,10 @@
+1st, I, first
+2nd, II, second
+3rd, III, third
+4th, IV , fourth
+5th, V, fifth
+6th, VI. sixth
+7th, VII, seventh
+8th, VIII, eighth
+9th, IX, nineth
+10th, X, tenth

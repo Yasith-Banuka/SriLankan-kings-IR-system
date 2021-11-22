@@ -14,8 +14,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": -543,
-    "end of reign": -505,
     "years of reign": 38,
     "reign": {
       "gte": -543,
@@ -40,8 +38,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": -505,
-    "end of reign": -504,
     "years of reign": 1,
     "reign": {
       "gte": -505,
@@ -52,7 +48,7 @@
     "description": "උපතිස්සගම\" ඔහු විසින් ඉදිකරන ලද්දකි."
   },
   {
-    "name sin": "පණ්ඩුවාසදේව,පඬුවස්දෙව්",
+    "name sin": "පණ්ඩුවාසදේව , පඬුවස්දෙව්",
     "name eng": "Panduvasdeva",
     "house eng": "Vijaya",
     "house sin": "විජය",
@@ -66,8 +62,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": -504,
-    "end of reign": -474,
     "years of reign": 30,
     "reign": {
       "gte": -504,
@@ -75,7 +69,7 @@
     },
     "claim to the throne sin": "විජයගේ බෑණා ය.",
     "claim to the throne eng": "Vijaya's nephew.",
-    "description": "භද්දකච්චායනා කුමරිය නම් ශාක්‍ය වංශික කුමරියක් බිසව කරගත්තේය. ඇගෙන් ඔහුට අභය,තිස්ස,උත්තිය,තිස්සා,අසේල,විහාන,රාම,ශිව,මත්තකාල,මත්තක, යනුවෙන් පුතුන් 10 දෙනෙකු සහ චිත්‍රා (උන්මාද චිත්‍රා) යනුවෙන් දියණියක්ද විය."
+    "description": "භද්දකච්චායනා කුමරිය නම් ශාක්‍ය වංශික කුමරියක් බිසව කරගත්තේය. ඇගෙන් ඔහුට අභය , තිස්ස , උත්තිය , තිස්සා , අසේල , විහාන , රාම , ශිව , මත්තකාල , මත්තක , යනුවෙන් පුතුන් 10 දෙනෙකු සහ චිත්‍රා (උන්මාද චිත්‍රා) යනුවෙන් දියණියක්ද විය."
   },
   {
     "name sin": "අභය",
@@ -92,8 +86,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": -474,
-    "end of reign": -454,
     "years of reign": 20,
     "reign": {
       "gte": -474,
@@ -118,8 +110,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": -454,
-    "end of reign": -437,
     "years of reign": 17,
     "reign": {
       "gte": -454,
@@ -127,7 +117,7 @@
     },
     "claim to the throne sin": "පණ්ඩුවාසදේවගේ දෙවන පුත්‍රයාය. අභයගේ බාල සොහොයුරායි‍.",
     "claim to the throne eng": "He was the second son of Panduwasadeva. Abhaya's younger brother.",
-    "description": "වැඩිමහල් සහෝදරයා වූ අභය රජු සිහසුනෙන් ඉවත් කිරීමෙන් පසු ඔහුගේ බාල සොහොයුරන් අට දෙනා විසින් ඔහු නියෝජිතයා ලෙස පත් කරන ලදී.තිස්ස කියා සිටියේ තම බෑණා වන පණ්ඩුකාභය පරාජය කිරීමෙන් පසුව තමා රජකමට අභිෂේක කරන බවයි. එහෙත් පණ්ඩුකාභය සටනින් ජයග්‍රහණය කරයි. තිස්ස ඔහුගේ බාල සොහොයුරන් අට දෙනා සමඟම සටනේදී මිය ගියේය."
+    "description": "වැඩිමහල් සහෝදරයා වූ අභය රජු සිහසුනෙන් ඉවත් කිරීමෙන් පසු ඔහුගේ බාල සොහොයුරන් අට දෙනා විසින් ඔහු නියෝජිතයා ලෙස පත් කරන ලදී. තිස්ස කියා සිටියේ තම බෑණා වන පණ්ඩුකාභය පරාජය කිරීමෙන් පසුව තමා රජකමට අභිෂේක කරන බවයි. එහෙත් පණ්ඩුකාභය සටනින් ජයග්‍රහණය කරයි. තිස්ස ඔහුගේ බාල සොහොයුරන් අට දෙනා සමඟම සටනේදී මිය ගියේය."
   },
   {
     "name sin": "පණ්ඩුකාභය",
@@ -142,17 +132,15 @@
     "other constructions sin": "",
     "Inscriptions eng": "",
     "Inscriptions sin": "",
-    "irrigation work eng": "Abhaya Wewa, Basawakkulama Wewa, Jaya Wewa",
-    "irrigation work sin": "අභය වැව,බසවක්කුලම වැව,ජය වැව",
-    "start of reign": -437,
-    "end of reign": -367,
+    "irrigation work eng": "Abhaya Wewa , Basawakkulama Wewa , Jaya Wewa",
+    "irrigation work sin": "අභය වැව , බසවක්කුලම වැව , ජය වැව",
     "years of reign": 70,
     "reign": {
       "gte": -437,
       "lte": -367
     },
     "claim to the throne sin": "පණ්ඩුවාසදේවගේ මුණුපුරායි. අභය සහ තිස්සගේ බෑණායි.",
-    "claim to the throne eng": "Grandson of PanduvasudevaNephew of Abhaya and Tissa",
+    "claim to the throne eng": "Grandson of Panduvasudeva. Nephew of Abhaya and Tissa",
     "description": "ආර්යයන් පරදා රට එක් සෙසත් කළ මුල්ම ස්වදෙශික පාලකයාය. මව උන්මාද චිත්‍රා කුමරිය සහ පියා දීඝගාමිණී කුමරු වේ."
   },
   {
@@ -170,8 +158,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": -367,
-    "end of reign": -307,
     "years of reign": 60,
     "reign": {
       "gte": -367,
@@ -179,25 +165,23 @@
     },
     "claim to the throne sin": "පණ්ඩුකාභය රජුගේ පුත්‍රයායි.",
     "claim to the throne eng": "Son of Pandukabhaya",
-    "description": "පුතුන් නව දෙනෙකු වූ අතර, දේවානම්පිය තිස්ස රජ, උත්තිය රජ, මහාසිව රජ සහ අසේල රජ වැනි, ඔවුන්ගෙන් සමහරුන් ඔහුගේ අනුප්‍රාප්තිකයෝ වූහ."
+    "description": "පුතුන් නව දෙනෙකු වූ අතර , දේවානම්පිය තිස්ස රජ , උත්තිය රජ , මහාසිව රජ සහ අසේල රජ වැනි , ඔවුන්ගෙන් සමහරුන් ඔහුගේ අනුප්‍රාප්තිකයෝ වූහ."
   },
   {
-    "name sin": "දේවානම්පිය තිස්ස,දෙවන පෑ තිස්",
+    "name sin": "දේවානම්පිය තිස්ස , දෙවන පෑ තිස්",
     "name eng": "Devanampiya Tissa",
     "house eng": "Vijaya",
     "house sin": "විජය",
     "kingdom eng": "Anuradhapura",
     "kingdom sin": "අනුරාධපුර",
-    "Temples eng": "Muthiyanganaya, Isurumuniya, Thuparamaya, Aluviharaya, Rasvehera, Sri Maha Bodhi",
-    "Temples sin": "මුතියංගනය,ඉසුරුමුණිය,ථූපාරාමය,අළුවිහාරය,රැස්වෙහෙර,ශ්‍රී මහා බෝධිය",
+    "Temples eng": "Muthiyanganaya , Isurumuniya , Thuparamaya , Aluviharaya , Rasvehera , Sri Maha Bodhi",
+    "Temples sin": "මුතියංගනය , ඉසුරුමුණිය , ථූපාරාමය , අළුවිහාරය , රැස්වෙහෙර , ශ්‍රී මහා බෝධිය",
     "other constructions eng": "Goldfish Garden",
     "other constructions sin": "රන්මසු උයන",
     "Inscriptions eng": "",
     "Inscriptions sin": "",
     "irrigation work eng": "Tissa Lake",
     "irrigation work sin": "තිසා වැව",
-    "start of reign": -307,
-    "end of reign": -267,
     "years of reign": 40,
     "reign": {
       "gte": -307,
@@ -205,7 +189,7 @@
     },
     "claim to the throne sin": "මුටසීවගේ පුත්‍රයායි.",
     "claim to the throne eng": "Son of Mutasiva",
-    "description": "මෞර්ය වංශික අශෝක අධිරාජ්‍යයාගේ අනුග්‍රහය ඇතිව එම පාලන සමය තුළ ලංකාවට බුද්ධාගම පැමිණීම, විදිමත් අභිෂේක ක්‍රමයක් ලැබීම, පංච කකුධ භාණ්ඩ ලැබීම මෙම රජසමය තුල සිදුවිය​."
+    "description": "මෞර්ය වංශික අශෝක අධිරාජ්‍යයාගේ අනුග්‍රහය ඇතිව එම පාලන සමය තුළ ලංකාවට බුද්ධාගම පැමිණීම , විදිමත් අභිෂේක ක්‍රමයක් ලැබීම , පංච කකුධ භාණ්ඩ ලැබීම මෙම රජසමය තුල සිදුවිය​."
   },
   {
     "name sin": "උත්තිය",
@@ -222,8 +206,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": -267,
-    "end of reign": -257,
     "years of reign": 10,
     "reign": {
       "gte": -267,
@@ -248,8 +230,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": -257,
-    "end of reign": -247,
     "years of reign": 10,
     "reign": {
       "gte": -257,
@@ -274,8 +254,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": -247,
-    "end of reign": -237,
     "years of reign": 10,
     "reign": {
       "gte": -247,
@@ -300,8 +278,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": -237,
-    "end of reign": -215,
     "years of reign": 22,
     "reign": {
       "gte": -237,
@@ -326,8 +302,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": -215,
-    "end of reign": -205,
     "years of reign": 10,
     "reign": {
       "gte": -215,
@@ -352,8 +326,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": -205,
-    "end of reign": -161,
     "years of reign": 44,
     "reign": {
       "gte": -205,
@@ -361,37 +333,35 @@
     },
     "claim to the throne sin": "ආක්‍රමණිකයෙකි",
     "claim to the throne eng": "An invader",
-    "description": "සොළී රටෙහි දෙමළ ජාතිකයෙකු වන එළාර, සිංහලයන් විසින් පවා සාම්ප්‍රදායික ලෙසින් සැලකෙන්නේ ධර්මිෂ්ඨ රජෙකු ලෙසිනි"
+    "description": "සොළී රටෙහි දෙමළ ජාතිකයෙකු වන එළාර , සිංහලයන් විසින් පවා සාම්ප්‍රදායික ලෙසින් සැලකෙන්නේ ධර්මිෂ්ඨ රජෙකු ලෙසිනි"
   },
   {
-    "name sin": "මහා දුට්ඨගාමිණී අභය,දුට්ඨගාමිණී,දුටුගැමුණු",
-    "name eng": "Dutugamunu the Great,Dutta Gamini or Dutugemunu,Duttagamini Abaya",
+    "name sin": "මහා දුට්ඨගාමිණී අභය , දුට්ඨගාමිණී , දුටුගැමුණු",
+    "name eng": "Dutugamunu the Great , Dutta Gamini or Dutugemunu , Duttagamini Abaya",
     "house eng": "Vijaya",
     "house sin": "විජය",
     "kingdom eng": "Anuradhapura",
     "kingdom sin": "අනුරාධපුර",
-    "Temples eng": "Ruwanweliseya, Miriswetiya, Lowamahapaya, Silver Temple",
-    "Temples sin": "රුවන්වැලිසෑය,මිරිස්වැටිය,ලෝවාමහාපාය,රිදී විහාරය",
+    "Temples eng": "Ruwanweliseya , Miriswetiya , Lowamahapaya , Silver Temple",
+    "Temples sin": "රුවන්වැලිසෑය , මිරිස්වැටිය , ලෝවාමහාපාය , රිදී විහාරය",
     "other constructions eng": "",
     "other constructions sin": "",
     "Inscriptions eng": "",
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": -161,
-    "end of reign": -137,
     "years of reign": 24,
     "reign": {
       "gte": -161,
       "lte": -137
     },
     "claim to the throne sin": "කාවන්තිස්ස රජුගේ වැඩිමහල් පුත්‍රයායි.",
-    "claim to the throne eng": "Eldest son of Kavan Tissa",
-    "description": "එළාර රජුව පැරදවී ය. මුලින් රුහුණේ පාලකයා විය. මහාවංශයට අනුව දුටුගැමුණු රජු සිය යුද්ධ මෙහෙයුම දියත් කරනු ලැබුවේ “මාගේ වෑයම රජ සැප විදීම සඳහා නොව, බුද්ධාගමේ චිරස්ථිතිය සඳහාය” යනුවෙන් පවසමිනි. මොහුට දස මහා යෝධයෝ සිටියෝ ය. ඔවුන් \"සුරනිමල, මහාසෝන, ගෝඨයිම්බර, ථේරපුත්තාභය, භරණ, වේළුසුමන, ලභියවසභ, ඛංඡදේව, පුස්සදේව, නන්දිමිත්‍ර වේ."
+    "claim to the throne eng": "Eldest son of Kavantissa",
+    "description": "එළාර රජුව පැරදවී ය. මුලින් රුහුණේ පාලකයා විය. මහාවංශයට අනුව දුටුගැමුණු රජු සිය යුද්ධ මෙහෙයුම දියත් කරනු ලැබුවේ “මාගේ වෑයම රජ සැප විදීම සඳහා නොව , බුද්ධාගමේ චිරස්ථිතිය සඳහාය” යනුවෙන් පවසමිනි. මොහුට දස මහා යෝධයෝ සිටියෝ ය. ඔවුන් \"සුරනිමල , මහාසෝන , ගෝඨයිම්බර , ථේරපුත්තාභය , භරණ , වේළුසුමන , ලභියවසභ , ඛංඡදේව , පුස්සදේව , නන්දිමිත්‍ර වේ."
   },
   {
     "name sin": "සද්ධාතිස්ස",
-    "name eng": "Saddha Tissa",
+    "name eng": "Saddhatissa",
     "house eng": "Vijaya",
     "house sin": "විජය",
     "kingdom eng": "Anuradhapura",
@@ -404,20 +374,18 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": -137,
-    "end of reign": -119,
     "years of reign": 18,
     "reign": {
       "gte": -137,
       "lte": -119
     },
     "claim to the throne sin": "දුටුගැමුණු රජුගේ සොහොයුරායි. කාවන්තිස්ස රජුගේ පුත්‍රයායි.",
-    "claim to the throne eng": "Brother of Dutugemunu",
-    "description": "මෙතුමාට අනුලා දේවි සහ සෝමා දේවි නමින් බිසවන් 2ක් වූහ. දරුවෝ සිව් දෙනෙකි. ඔවුන් තුලත්ථන,ලංජතිස්ස, ඛල්ලාඨනාග, මහාචුලික,වළගම්බා නම් විය​."
+    "claim to the throne eng": "Brother of Dutugemunu. son of Kavantissa",
+    "description": "මෙතුමාට අනුලා දේවි සහ සෝමා දේවි නමින් බිසවන් 2ක් වූහ. දරුවෝ සිව් දෙනෙකි. ඔවුන් තුලත්ථන , ලංජතිස්ස , ඛල්ලාඨනාග , මහාචුලික , වළගම්බා නම් විය​."
   },
   {
-    "name sin": "තුලත්ථන,තුල්නා",
-    "name eng": "Thulatthana,Tulna",
+    "name sin": "තුලත්ථන , තුල්නා",
+    "name eng": "Thulatthana , Tulna",
     "house eng": "Vijaya",
     "house sin": "විජය",
     "kingdom eng": "Anuradhapura",
@@ -430,19 +398,17 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": -119,
-    "end of reign": -119,
     "years of reign": 0,
     "reign": {
       "gte": -119,
       "lte": -119
     },
     "claim to the throne sin": "සද්ධාතිස්සගේ දෙවන පුත්‍රයායි.",
-    "claim to the throne eng": "Second son of Saddha Tissa",
+    "claim to the throne eng": "Second son of Saddhatissa",
     "description": "ඔහුගේ දෙටු සොයුරු ලජ්ජිතිස්ස කුමරු ඔහු නෙරපා රාජ උරුමය ලබා ගන්නා ලදී."
   },
   {
-    "name sin": "ලංජතිස්ස,ලැමිණිතිස්",
+    "name sin": "ලංජතිස්ස , ලැමිණිතිස්",
     "name eng": "Lanja Tissa",
     "house eng": "Vijaya",
     "house sin": "විජය",
@@ -456,20 +422,18 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": -119,
-    "end of reign": -109,
     "years of reign": 10,
     "reign": {
       "gte": -119,
       "lte": -109
     },
     "claim to the throne sin": "තුලත්ථන රජුගේ වැඩිමහල් සොහොයුරායි. සද්ධාතිස්ස රජුගේ වැඩිමහල්ම පුත්‍රයායි.",
-    "claim to the throne eng": "Older brother of Thullattana.Oldest son of Saddha Tissa",
+    "claim to the throne eng": "Older brother of Thullattana. Oldest son of Saddhatissa",
     "description": "සිය සොහොයුරා මරා රජවිය"
   },
   {
-    "name sin": "ඛල්ලාඨනාග,කලුන්නා",
-    "name eng": "Khallata Naga,Kalunna",
+    "name sin": "ඛල්ලාඨනාග , කලුන්නා",
+    "name eng": "Khallata Naga , Kalunna",
     "house eng": "Vijaya",
     "house sin": "විජය",
     "kingdom eng": "Anuradhapura",
@@ -482,41 +446,37 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": -109,
-    "end of reign": -104,
     "years of reign": 5,
     "reign": {
       "gte": -109,
       "lte": -104
     },
     "claim to the throne sin": "ලංජතිස්ස රජුගේ සොහොයුරායි. සද්ධාතිස්ස රජුගේ තෙවන පුත්‍රයායි.",
-    "claim to the throne eng": "Brother of Lanja Tissa.Third son of Saddha Tissa",
+    "claim to the throne eng": "Brother of Lanja Tissa. Third son of Saddhatissa",
     "description": "මහාරත්ථක නම් සෙනෙවියකු අතින් ඝාතනයට ලක්විය"
   },
   {
-    "name sin": "වට්ටගාමිණී අභය,වළගම්බාහු I,වළගම්බා",
-    "name eng": "Vattagamani Abhaya,Valagambahu I,Walagamba",
+    "name sin": "වට්ටගාමිණී අභය , වළගම්බාහු, වළගම්බා",
+    "name eng": "Vattagamani Abhaya , Valagambahu I , Walagamba",
     "house eng": "Vijaya",
     "house sin": "විජය",
     "kingdom eng": "Anuradhapura",
     "kingdom sin": "අනුරාධපුර",
-    "Temples eng": "Abhayagiriya, Lankaramaya, Dambulla Rajamaha Viharaya",
-    "Temples sin": "අභයගිරිය,ලංකාරාමය​,දඹුල්ල රජමහා විහාරය",
+    "Temples eng": "Abhayagiriya , Lankaramaya , Dambulla Rajamaha Viharaya",
+    "Temples sin": "අභයගිරිය , ලංකාරාමය​ , දඹුල්ල රජමහා විහාරය",
     "other constructions eng": "",
     "other constructions sin": "",
     "Inscriptions eng": "",
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": -104,
-    "end of reign": -103,
     "years of reign": 1,
     "reign": {
       "gte": -104,
       "lte": -103
     },
     "claim to the throne sin": "සද්ධාතිස්ස රජුගේ සිව්වන පුත්‍රයායි.",
-    "claim to the throne eng": "Fourth son of Saddha Tissa",
+    "claim to the throne eng": "Fourth son of Saddhatissa",
     "description": "අගමෙහෙසිය වූයේ සෝමා දේවියයි. පුතා මහානාග කුමාරයා වේ. එතුමා රාජ්‍යයත්වයට පත් වි මාස 5 කට පසු සත් ද්‍රවිඩ ආක්‍රමණය සහ තීය බ්‍රාහ්මණයාගේ කැරැල්ල හමුවේ පරාජයට පත් වි සිහසුන අහිමිවිය. ආක්‍රමණිකයන් පරාජය කර නැවත සිහසුන ලබාගැනිමට එතුමාට හැකි විය. මාතලේ අළුවිහාරයේදි මුල්වරට ත්‍රිපිටකය ග්‍රන්ථාරූඪ කිරිම එතුමාගේ රාජ්‍ය අනුග්‍රහය ඇතිව සිදුවු මහඟු ක්‍රියාවලියකි."
   },
   {
@@ -534,8 +494,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": -103,
-    "end of reign": -100,
     "years of reign": 3,
     "reign": {
       "gte": -103,
@@ -560,8 +518,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": -100,
-    "end of reign": -98,
     "years of reign": 2,
     "reign": {
       "gte": -100,
@@ -586,8 +542,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": -98,
-    "end of reign": -91,
     "years of reign": 7,
     "reign": {
       "gte": -98,
@@ -612,8 +566,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": -91,
-    "end of reign": -90,
     "years of reign": 1,
     "reign": {
       "gte": -91,
@@ -638,8 +590,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": -90,
-    "end of reign": -88,
     "years of reign": 2,
     "reign": {
       "gte": -90,
@@ -650,8 +600,8 @@
     "description": "පිලිය මාර මරා රජකම පැහැර ගති. වළගම්බා රජු විසින් ඔහු මරා දමන ලදි"
   },
   {
-    "name sin": "මහාචූලි මහාතිස්ස,මහාචූලි මහාතිස්ස",
-    "name eng": "Mahakuli Mahatissa,Maha Cula Maha Tissa",
+    "name sin": "මහාචූලි මහාතිස්ස , මහාචූලි මහාතිස්ස",
+    "name eng": "Mahakuli Mahatissa , Maha Cula Maha Tissa",
     "house eng": "Vijaya",
     "house sin": "විජය",
     "kingdom eng": "Anuradhapura",
@@ -664,20 +614,18 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": -76,
-    "end of reign": -62,
     "years of reign": 14,
     "reign": {
       "gte": -76,
       "lte": -62
     },
     "claim to the throne sin": "ඛල්ලාටනාග රජුගේ පුත්‍රයායි. වළගම්බා රජුගේ බෑණායි.",
-    "claim to the throne eng": "Son of Khallatanaga.Nephew and adopted son of Valagambahu I",
+    "claim to the throne eng": "Son of Khallatanaga. Nephew and adopted son of Valagambahu I",
     "description": ""
   },
   {
-    "name sin": "චෝරනාග,මහානාග",
-    "name eng": "Chora Naga,Mahanaga",
+    "name sin": "චෝරනාග , මහානාග",
+    "name eng": "Chora Naga , Mahanaga",
     "house eng": "Vijaya",
     "house sin": "විජය",
     "kingdom eng": "Anuradhapura",
@@ -690,15 +638,13 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": -62,
-    "end of reign": -50,
     "years of reign": 12,
     "reign": {
       "gte": -62,
       "lte": -50
     },
     "claim to the throne sin": "වළගම්බා රජුගේ පුත්‍රයායි. මහාචූලි මහාතිස්සගේ ඥාති සොහොයුරායි.",
-    "claim to the throne eng": "Son of Valagambahu I.Cousin of Mahakuli Mahatissa",
+    "claim to the throne eng": "Son of Valagambahu I. Cousin of Mahakuli Mahatissa",
     "description": ""
   },
   {
@@ -716,8 +662,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": -50,
-    "end of reign": -47,
     "years of reign": 3,
     "reign": {
       "gte": -50,
@@ -742,8 +686,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": -47,
-    "end of reign": -47,
     "years of reign": 0,
     "reign": {
       "gte": -47,
@@ -768,8 +710,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": -47,
-    "end of reign": -47,
     "years of reign": 0,
     "reign": {
       "gte": -47,
@@ -794,8 +734,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": -47,
-    "end of reign": -47,
     "years of reign": 0,
     "reign": {
       "gte": -47,
@@ -820,8 +758,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": -47,
-    "end of reign": -47,
     "years of reign": 0,
     "reign": {
       "gte": -47,
@@ -846,8 +782,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": -47,
-    "end of reign": -42,
     "years of reign": 5,
     "reign": {
       "gte": -47,
@@ -872,15 +806,13 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": -42,
-    "end of reign": -20,
     "years of reign": 22,
     "reign": {
       "gte": -42,
       "lte": -20
     },
-    "claim to the throne sin": "කුඩා තිස්සගේ සොහොයුරායි.මහාචූලි මහාතිස්ස රජුගේ දෙවන පුත්‍රයායි.",
-    "claim to the throne eng": "Brother of Kuda TissaSecond son of Mahakuli Mahatissa",
+    "claim to the throne sin": "කුඩා තිස්සගේ සොහොයුරායි. මහාචූලි මහාතිස්ස රජුගේ දෙවන පුත්‍රයායි.",
+    "claim to the throne eng": "Brother of Kuda Tissa. Second son of Mahakuli Mahatissa",
     "description": ""
   },
   {
@@ -898,8 +830,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": -20,
-    "end of reign": 9,
     "years of reign": 29,
     "reign": {
       "gte": -20,
@@ -924,8 +854,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 9,
-    "end of reign": 21,
     "years of reign": 12,
     "reign": {
       "gte": 9,
@@ -950,8 +878,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 21,
-    "end of reign": 30,
     "years of reign": 9,
     "reign": {
       "gte": 21,
@@ -976,8 +902,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 30,
-    "end of reign": 33,
     "years of reign": 3,
     "reign": {
       "gte": 30,
@@ -1002,8 +926,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 33,
-    "end of reign": 35,
     "years of reign": 2,
     "reign": {
       "gte": 33,
@@ -1028,8 +950,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 35,
-    "end of reign": 35,
     "years of reign": 0,
     "reign": {
       "gte": 35,
@@ -1037,10 +957,10 @@
     },
     "claim to the throne sin": "චූලාභය රජුගේ සොයුරියයි.",
     "claim to the throne eng": "Sister of Chulabhaya",
-    "description": "ඇගේ පියා මහා දාඨික මහානාග රජුය. ඉලනාග රජු ඇයව පලවා හැර සිහසුන උදුරාගත්හ."
+    "description": "ඇගේ පියා මහා දාඨික මහානාග රජුය.  ඉලනාග රජු ඇයව පලවා හැර සිහසුන උදුරාගත්හ."
   },
   {
-    "name sin": "ඉලනාග,එලන්නා",
+    "name sin": "ඉලනාග , එලන්නා",
     "name eng": "Ilanaga(Elunna)",
     "house eng": "Vijaya",
     "house sin": "විජය",
@@ -1052,10 +972,8 @@
     "other constructions sin": "",
     "Inscriptions eng": "",
     "Inscriptions sin": "",
-    "irrigation work eng": "Tissa Wewa, Doorathisa Wewa, Yoda Wewa",
-    "irrigation work sin": "තිස්ස වැව,දුරතිසා වැව,යෝධ වැව",
-    "start of reign": 38,
-    "end of reign": 44,
+    "irrigation work eng": "Tissa Wewa , Doorathisa Wewa , Yoda Wewa",
+    "irrigation work sin": "තිස්ස වැව , දුරතිසා වැව , යෝධ වැව",
     "years of reign": 6,
     "reign": {
       "gte": 38,
@@ -1080,8 +998,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 44,
-    "end of reign": 52,
     "years of reign": 8,
     "reign": {
       "gte": 44,
@@ -1106,8 +1022,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 52,
-    "end of reign": 60,
     "years of reign": 8,
     "reign": {
       "gte": 52,
@@ -1118,8 +1032,8 @@
     "description": ""
   },
   {
-    "name sin": "සුභරාජ,සුභ",
-    "name eng": "Subharaja, Subha",
+    "name sin": "සුභරාජ , සුභ",
+    "name eng": "Subharaja , Subha",
     "house eng": "Vijaya",
     "house sin": "විජය",
     "kingdom eng": "Anuradhapura",
@@ -1132,8 +1046,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 60,
-    "end of reign": 66,
     "years of reign": 6,
     "reign": {
       "gte": 60,
@@ -1156,18 +1068,16 @@
     "other constructions sin": "",
     "Inscriptions eng": "Vallipuram Gold Sannasa",
     "Inscriptions sin": "වල්ලිපුරම් රන් සන්නස",
-    "irrigation work eng": "Mahavilachchiya Wewa, Manaketiya Wewa, Nochchipothana Wewa, Hiriwadunna Wewa, Elahera Wewa",
-    "irrigation work sin": "මහවිලච්චිය වැව,මානාකැටිය වැව,නොච්චිපොතාන වැව,හිරිවඩුන්න වැව,ඇලහැර වැව",
-    "start of reign": 66,
-    "end of reign": 110,
+    "irrigation work eng": "Mahavilachchiya Wewa , Manaketiya Wewa , Nochchipothana Wewa , Hiriwadunna Wewa , Elahera Wewa",
+    "irrigation work sin": "මහවිලච්චිය වැව , මානාකැටිය වැව , නොච්චිපොතාන වැව , හිරිවඩුන්න වැව , ඇලහැර වැව",
     "years of reign": 44,
     "reign": {
       "gte": 66,
       "lte": 110
     },
     "claim to the throne sin": "",
-    "claim to the throne eng": "A member of the Lambakanna clan",
-    "description": "වී ගොවිතැනට උපකාර වනු වස් මහා පරිමාණයේ ජලාපවහන කර්මාන්ත ගොඩනැගීමෙහි පුරෝගාමියෙකු ලෙසින් එතුමා සැලකෙයි.  එතුමාගේ පාලන සමයෙහිදී වැව් 11 ක් සහ ඇළ 12 ක් තනන ලදි.  එවකට අනුරාධපුර පාලකයාව සිටි සුභරාජ රජ මරා සිහසුන පැහැර ගත් වසභ රජ, ශ්‍රී ලාංකික රජවරුන්ගේ ඉතිහාසයෙහි නව රාජ වංශයක් ඇරඹීය."
+    "claim to the throne eng": "",
+    "description": "වී ගොවිතැනට උපකාර වනු වස් මහා පරිමාණයේ ජලාපවහන කර්මාන්ත ගොඩනැගීමෙහි පුරෝගාමියෙකු ලෙසින් එතුමා සැලකෙයි.  එතුමාගේ පාලන සමයෙහිදී වැව් 11 ක් සහ ඇළ 12 ක් තනන ලදි.  එවකට අනුරාධපුර පාලකයාව සිටි සුභරාජ රජ මරා සිහසුන පැහැර ගත් වසභ රජ , ශ්‍රී ලාංකික රජවරුන්ගේ ඉතිහාසයෙහි නව රාජ වංශයක් ඇරඹීය."
   },
   {
     "name sin": "වංකනාසික තිස්ස",
@@ -1184,8 +1094,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 110,
-    "end of reign": 113,
     "years of reign": 3,
     "reign": {
       "gte": 110,
@@ -1210,8 +1118,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 113,
-    "end of reign": 135,
     "years of reign": 22,
     "reign": {
       "gte": 113,
@@ -1219,7 +1125,7 @@
     },
     "claim to the throne sin": "වංකනාසික තිස්ස රජුගේ පුත්‍රයායි.",
     "claim to the throne eng": "Son of Vankanasika Tissa",
-    "description": "සොළී දේශ සිමාව අනුක්‍රමණය කිරිමත් ඔහුගේ පියා රජකළ කාලයේදී සිරකරැවන් ලෙස අල්ලාගත් 12,000 ක් සිංහලයින් මුදවා ගැනිමටත් සමඟ චෝල සිරකරුවන් 12000ක් ලංකාවට ගෙන ඒම මෙම රජගේ කාලයේ වූ වදගත් සිද්ධි වේ."
+    "description": "සොළී දේශ සිමාව අනුක්‍රමණය කිරිමත් ඔහුගේ පියා රජකළ කාලයේදී සිරකරැවන් ලෙස අල්ලාගත් 12 , 000 ක් සිංහලයින් මුදවා ගැනිමටත් සමඟ චෝල සිරකරුවන් 12000ක් ලංකාවට ගෙන ඒම මෙම රජගේ කාලයේ වූ වදගත් සිද්ධි වේ."
   },
   {
     "name sin": "මහල්ලකනාග",
@@ -1236,8 +1142,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 135,
-    "end of reign": 141,
     "years of reign": 6,
     "reign": {
       "gte": 135,
@@ -1262,8 +1166,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 141,
-    "end of reign": 165,
     "years of reign": 24,
     "reign": {
       "gte": 141,
@@ -1288,8 +1190,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 165,
-    "end of reign": 193,
     "years of reign": 28,
     "reign": {
       "gte": 165,
@@ -1300,8 +1200,8 @@
     "description": ""
   },
   {
-    "name sin": "චූලනාග,ඛුජ්ජනාග",
-    "name eng": "Cula Naga,Khujjanaga",
+    "name sin": "චූලනාග , ඛුජ්ජනාග",
+    "name eng": "Cula Naga , Khujjanaga",
     "house eng": "Lambakanna I",
     "house sin": "Iවන ලම්බකර්ණ",
     "kingdom eng": "Anuradhapura",
@@ -1314,8 +1214,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 193,
-    "end of reign": 195,
     "years of reign": 2,
     "reign": {
       "gte": 193,
@@ -1326,8 +1224,8 @@
     "description": ""
   },
   {
-    "name sin": "කුඩානාග,කුංචනාග",
-    "name eng": "Kuda Naga, Kunchanaga",
+    "name sin": "කුඩානාග , කුංචනාග",
+    "name eng": "Kuda Naga , Kunchanaga",
     "house eng": "Lambakanna I",
     "house sin": "Iවන ලම්බකර්ණ",
     "kingdom eng": "Anuradhapura",
@@ -1340,8 +1238,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 195,
-    "end of reign": 196,
     "years of reign": 1,
     "reign": {
       "gte": 195,
@@ -1366,8 +1262,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 196,
-    "end of reign": 215,
     "years of reign": 19,
     "reign": {
       "gte": 196,
@@ -1378,8 +1272,8 @@
     "description": ""
   },
   {
-    "name sin": "වෝහාරිකතිස්ස,වීර තිස්ස,වෝහාරකතිස්ස",
-    "name eng": "Voharika Tissa, Vira Tissa,Voharikathissa",
+    "name sin": "වෝහාරිකතිස්ස , වීර තිස්ස , වෝහාරකතිස්ස",
+    "name eng": "Voharika Tissa , Vira Tissa , Voharikathissa",
     "house eng": "Lambakanna I",
     "house sin": "Iවන ලම්බකර්ණ",
     "kingdom eng": "Anuradhapura",
@@ -1392,8 +1286,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 215,
-    "end of reign": 237,
     "years of reign": 22,
     "reign": {
       "gte": 215,
@@ -1418,8 +1310,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 237,
-    "end of reign": 245,
     "years of reign": 8,
     "reign": {
       "gte": 237,
@@ -1444,8 +1334,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 245,
-    "end of reign": 247,
     "years of reign": 2,
     "reign": {
       "gte": 245,
@@ -1470,8 +1358,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 247,
-    "end of reign": 248,
     "years of reign": 1,
     "reign": {
       "gte": 247,
@@ -1496,8 +1382,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 248,
-    "end of reign": 252,
     "years of reign": 4,
     "reign": {
       "gte": 248,
@@ -1508,8 +1392,8 @@
     "description": ""
   },
   {
-    "name sin": "Iවන සිරි සංඝබෝධි,සිරි සඟබෝ",
-    "name eng": "Siri Sangha Bodhi I,Siri Sangabo",
+    "name sin": "Iවන සිරි සංඝබෝධි , සිරි සඟබෝ",
+    "name eng": "Siri Sangha Bodhi I , Siri Sangabo",
     "house eng": "Lambakanna I",
     "house sin": "Iවන ලම්බකර්ණ",
     "kingdom eng": "Anuradhapura",
@@ -1522,8 +1406,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 252,
-    "end of reign": 254,
     "years of reign": 2,
     "reign": {
       "gte": 252,
@@ -1548,8 +1430,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 254,
-    "end of reign": 267,
     "years of reign": 13,
     "reign": {
       "gte": 254,
@@ -1560,8 +1440,8 @@
     "description": ""
   },
   {
-    "name sin": "Iවන ජෙට්ඨතිස්ස,IIවන දෙටුතිස්",
-    "name eng": "Jettha Tissa I,Detuthis I",
+    "name sin": "Iවන ජෙට්ඨතිස්ස , Iවන දෙටුතිස්",
+    "name eng": "Jettha Tissa I , Detuthis I",
     "house eng": "Lambakanna I",
     "house sin": "Iවන ලම්බකර්ණ",
     "kingdom eng": "Anuradhapura",
@@ -1574,8 +1454,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 267,
-    "end of reign": 277,
     "years of reign": 10,
     "reign": {
       "gte": 267,
@@ -1586,29 +1464,27 @@
     "description": ""
   },
   {
-    "name sin": "මහාසේන,මින්නේරි දෙවියන්",
+    "name sin": "මහාසේන , මින්නේරි දෙවියන්",
     "name eng": "Mahasena",
     "house eng": "Lambakanna I",
     "house sin": "Iවන ලම්බකර්ණ",
     "kingdom eng": "Anuradhapura",
     "kingdom sin": "අනුරාධපුර",
-    "Temples eng": "Jethavanaramaya, Kataragama Kiri Vehera",
-    "Temples sin": "ජේතවනාරාමය,කතරගම කිරි වෙහෙර",
+    "Temples eng": "Jethavanaramaya , Kataragama Kiri Vehera",
+    "Temples sin": "ජේතවනාරාමය , කතරගම කිරි වෙහෙර",
     "other constructions eng": "",
     "other constructions sin": "",
     "Inscriptions eng": "",
     "Inscriptions sin": "",
-    "irrigation work eng": "Minneriya Wewa, Kandara Wewa, Kaudulla Wewa, Mahagalkadawala Wewa, Hulugalle Wewa, Hiramulla Wewa, Hurulu Wewa, Maminiya Wewa, Gal Wewa, Kalawana Wewa, Merawapiya Wewa, Pabbathantha Ela, Ridibendi Ela",
-    "irrigation work sin": "මින්නේරි වැව,කණදරා වැව,කවුඩුල්ල වැව,මහගල්කඩවල වැව,හුලුගල්ල වැව,හිරාමුල්ල වැව,හුරුළු වැව,මාමිණියා වැවමා,ගල් වැව,කළවාණ වැව,මෙරවාපිය වැව,පබ්බතන්ත ඇල,රිදීබැඳි ඇල",
-    "start of reign": 277,
-    "end of reign": 304,
+    "irrigation work eng": "Minneriya Wewa , Kandara Wewa , Kaudulla Wewa , Mahagalkadawala Wewa , Hulugalle Wewa , Hiramulla Wewa , Hurulu Wewa , Maminiya Wewa , Gal Wewa , Kalawana Wewa , Merawapiya Wewa , Pabbathantha Ela , Ridibendi Ela",
+    "irrigation work sin": "මින්නේරි වැව , කණදරා වැව , කවුඩුල්ල වැව , මහගල්කඩවල වැව , හුලුගල්ල වැව , හිරාමුල්ල වැව , හුරුළු වැව , මාමිණියා වැවමා , ගල් වැව , කළවාණ වැව , මෙරවාපිය වැව , පබ්බතන්ත ඇල , රිදීබැඳි ඇල",
     "years of reign": 27,
     "reign": {
       "gte": 277,
       "lte": 304
     },
     "claim to the throne sin": "ජෙට්ඨතිස්සගේ සොහොයුරායි. ගෝඨාභයගේ බාල පුත්‍රයායි.",
-    "claim to the throne eng": "Brother of Jettha Tissa.Younger son of Gothabhaya",
+    "claim to the throne eng": "Brother of Jettha Tissa. Younger son of Gothabhaya",
     "description": "ලංකාවේ වැවු 16 කරවූ බව සදහන්ය. දකුණු ඉන්දියාවේ සිට ලන්කාපුරට පැමිණි සංගමිත්ත නම් ස්ථවිරයන් වහන්සේ නමක් බුදුන්වහන්සේ විසින් නියම කල පිළිවෙත් මහාවිහාරය අනුගමනය නොකරන්නේයැයි ලෙස කීම පිට මහාවිහාරය විනාශ කල බව ඉහිහාසයේ සදහන්ය. බෞද්ධාගමට වන හඅනිය දැක අමාත්‍ය මාඝවානබයගේ කැරැල්ලක් ගෙනගියේය​. ඉන් පසු මහසෙන් රජ දැහැමි විය​."
   },
   {
@@ -1626,8 +1502,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 304,
-    "end of reign": 332,
     "years of reign": 28,
     "reign": {
       "gte": 304,
@@ -1652,8 +1526,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 332,
-    "end of reign": 341,
     "years of reign": 9,
     "reign": {
       "gte": 332,
@@ -1678,8 +1550,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 341,
-    "end of reign": 370,
     "years of reign": 29,
     "reign": {
       "gte": 341,
@@ -1704,8 +1574,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "Thopa Lake",
     "irrigation work sin": "තෝපා වැව",
-    "start of reign": 370,
-    "end of reign": 412,
     "years of reign": 42,
     "reign": {
       "gte": 370,
@@ -1730,8 +1598,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 412,
-    "end of reign": 434,
     "years of reign": 22,
     "reign": {
       "gte": 412,
@@ -1756,8 +1622,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 434,
-    "end of reign": 434,
     "years of reign": 0,
     "reign": {
       "gte": 434,
@@ -1768,8 +1632,8 @@
     "description": ""
   },
   {
-    "name sin": "ඡත්තගාහක ජන්ත,ඡත්තගාහක",
-    "name eng": "Chattagahaka Jantu,Chhattagahaka",
+    "name sin": "ඡත්තගාහක ජන්ත , ඡත්තගාහක",
+    "name eng": "Chattagahaka Jantu , Chhattagahaka",
     "house eng": "Lambakanna I",
     "house sin": "Iවන ලම්බකර්ණ",
     "kingdom eng": "Anuradhapura",
@@ -1782,15 +1646,13 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 434,
-    "end of reign": 435,
     "years of reign": 1,
     "reign": {
       "gte": 434,
       "lte": 435
     },
     "claim to the throne sin": "මහානාම රජුගේ සිංහල රැජිනගේ දියණිය වූ සංඝාගේ සැමියායි.",
-    "claim to the throne eng": "Husband of Sangha.Daughter of Mahanama by his Sinhala Queen",
+    "claim to the throne eng": "Husband of Sangha. Daughter of Mahanama by his Sinhala Queen",
     "description": ""
   },
   {
@@ -1808,8 +1670,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 435,
-    "end of reign": 436,
     "years of reign": 1,
     "reign": {
       "gte": 435,
@@ -1834,8 +1694,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 436,
-    "end of reign": 441,
     "years of reign": 5,
     "reign": {
       "gte": 436,
@@ -1860,8 +1718,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 441,
-    "end of reign": 441,
     "years of reign": 0,
     "reign": {
       "gte": 441,
@@ -1886,8 +1742,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 441,
-    "end of reign": 447,
     "years of reign": 6,
     "reign": {
       "gte": 441,
@@ -1912,8 +1766,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 447,
-    "end of reign": 447,
     "years of reign": 0,
     "reign": {
       "gte": 447,
@@ -1938,8 +1790,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 447,
-    "end of reign": 450,
     "years of reign": 3,
     "reign": {
       "gte": 447,
@@ -1964,8 +1814,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 450,
-    "end of reign": 452,
     "years of reign": 2,
     "reign": {
       "gte": 450,
@@ -1988,21 +1836,19 @@
     "other constructions sin": "",
     "Inscriptions eng": "",
     "Inscriptions sin": "",
-    "irrigation work eng": "Kala Wewa, Yoda Ela, Balalu Wewa, Madathugama Wewa, Panagamda Wewa",
-    "irrigation work sin": "කලා වැව,යෝධ ඇළ,බලලු වැව, මාදතුගම වැව,පානගම්‌ වැව",
-    "start of reign": 463,
-    "end of reign": 479,
+    "irrigation work eng": "Kala Wewa , Yoda Ela , Balalu Wewa , Madathugama Wewa , Panagamda Wewa",
+    "irrigation work sin": "කලා වැව , යෝධ ඇළ , බලලු වැව , මාදතුගම වැව , පානගම්‌ වැව",
     "years of reign": 16,
     "reign": {
       "gte": 463,
       "lte": 479
     },
     "claim to the throne sin": "මාහානාමගේ දියණිය වූ සංඝාගේ පුත්‍රයායි.",
-    "claim to the throne eng": "Son of Sangha, the daughter of Mahanama",
+    "claim to the throne eng": "Son of Sangha , the daughter of Mahanama",
     "description": "මෞර්ය රාජ වංශයේ පළමු රජුයි. 27 වසරක පාණ්ඩ්‍ය පාලනයෙන් අනුරාධපුරය මුදා ගත්තේ ය. තම පුතා වන කාශ්‍යප විසින් පස්ගසා ඝාතනය කරනලදි."
   },
   {
-    "name sin": "Iවන කාශ්‍යප,Iවන කස්සප",
+    "name sin": "Iවන කාශ්‍යප , Iවන කස්සප",
     "name eng": "Kashyapa I",
     "house eng": "Moriya",
     "house sin": "මෝරිය",
@@ -2016,8 +1862,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 479,
-    "end of reign": 497,
     "years of reign": 18,
     "reign": {
       "gte": 479,
@@ -2025,10 +1869,10 @@
     },
     "claim to the throne sin": "පල්ලව බිසවකට දාව උපන් ධාතුසේන රජුගේ පුත්‍රයෙකි.",
     "claim to the throne eng": "Son of King Dhatusena by a Pallava woman",
-    "description": "පල්ලව බිසවකට දාව උපත ලබා ඇත​. රජ සිරිතට අනුව සිහසුන ලැබිය යුත්තේ කාශ්‍යපගේ සොයුරු මුගලං ට උවද​, විහාර සෙන්පතියා සමඟ කුමන්ත්‍රණය කර ධාතුසේන රජු සිහසුනෙන් නෙරපා හැර රාජ්‍ය පවරා ගන්නා ලදි. මුගලං ගෙන් එල්ල විය හැකි ප්‍රහරයන්ට පිලියමක් ලෙස සීගිරිය තම මාලිගාව ලෙස නිර්මාණය කලේය​"
+    "description": "පල්ලව බිසවකට දාව උපත ලබා ඇත​. රජ සිරිතට අනුව සිහසුන ලැබිය යුත්තේ කාශ්‍යපගේ සොයුරු මුගලං ට උවද​ , විහාර සෙන්පතියා සමඟ කුමන්ත්‍රණය කර ධාතුසේන රජු සිහසුනෙන් නෙරපා හැර රාජ්‍ය පවරා ගන්නා ලදි. මුගලං ගෙන් එල්ල විය හැකි ප්‍රහරයන්ට පිලියමක් ලෙස සීගිරිය තම මාලිගාව ලෙස නිර්මාණය කලේය​"
   },
   {
-    "name sin": "Iවන මොග්ගල්ලාන,Iවන මුගලන්",
+    "name sin": "Iවන මොග්ගල්ලාන , Iවන මුගලන්",
     "name eng": "Moggallana I",
     "house eng": "Moriya",
     "house sin": "මෝරිය",
@@ -2042,16 +1886,14 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 497,
-    "end of reign": 515,
     "years of reign": 18,
     "reign": {
       "gte": 497,
       "lte": 515
     },
-    "claim to the throne sin": "ධාතුසේනගේ පුත්‍රයායි.කාශ්‍යපගේ සොහොයුරායි.",
-    "claim to the throne eng": "Son of Dhatusena.Brother of Kasyapa",
-    "description": "කාශ්‍යප රාජ්‍යත්වය අල්ලා ගැනීමෙන් පසු බියපත් වූ මුගලන් ඉන්දියාවට පැන ගියේය​.ඉන්පසු නවත පැමිණ කාශ්‍යප නරපා සිහසුන අල්ල ගත්තේය​."
+    "claim to the throne sin": "ධාතුසේනගේ පුත්‍රයායි. කාශ්‍යපගේ සොහොයුරායි.",
+    "claim to the throne eng": "Son of Dhatusena. Brother of Kasyapa",
+    "description": "කාශ්‍යප රාජ්‍යත්වය අල්ලා ගැනීමෙන් පසු බියපත් වූ මුගලන් ඉන්දියාවට පැන ගියේය​. ඉන්පසු නවත පැමිණ කාශ්‍යප නරපා සිහසුන අල්ල ගත්තේය​."
   },
   {
     "name sin": "කුමාර ධාතුසේන",
@@ -2068,8 +1910,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 515,
-    "end of reign": 524,
     "years of reign": 9,
     "reign": {
       "gte": 515,
@@ -2094,8 +1934,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 524,
-    "end of reign": 524,
     "years of reign": 0,
     "reign": {
       "gte": 524,
@@ -2120,8 +1958,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 524,
-    "end of reign": 525,
     "years of reign": 1,
     "reign": {
       "gte": 524,
@@ -2146,8 +1982,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 525,
-    "end of reign": 526,
     "years of reign": 1,
     "reign": {
       "gte": 525,
@@ -2172,15 +2006,13 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 526,
-    "end of reign": 539,
     "years of reign": 13,
     "reign": {
       "gte": 526,
       "lte": 539
     },
     "claim to the throne sin": "ලම්බකර්ණ පෙළපතේ කුමරෙකි.",
-    "claim to the throne eng": "A Son-in-Law of Upatissa, prince of Lambakanna stock",
+    "claim to the throne eng": "A Son-in-Law of Upatissa , prince of Lambakanna stock",
     "description": ""
   },
   {
@@ -2198,8 +2030,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 539,
-    "end of reign": 540,
     "years of reign": 1,
     "reign": {
       "gte": 539,
@@ -2210,7 +2040,7 @@
     "description": ""
   },
   {
-    "name sin": "IIවන මොග්ගල්ලාන,IIවන මුගලන්",
+    "name sin": "IIවන මොග්ගල්ලාන , IIවන මුගලන්",
     "name eng": "Moggallana II",
     "house eng": "Moriya",
     "house sin": "මෝරිය",
@@ -2222,10 +2052,8 @@
     "other constructions sin": "",
     "Inscriptions eng": "",
     "Inscriptions sin": "",
-    "irrigation work eng": "Nachchaduwa Wewa, Padaviya Wewa, Giritara Wewa",
-    "irrigation work sin": "නාච්චදූව වැව​,පදවිය වැව​,ගිරිතර වැව",
-    "start of reign": 540,
-    "end of reign": 560,
+    "irrigation work eng": "Nachchaduwa Wewa , Padaviya Wewa , Giritara Wewa",
+    "irrigation work sin": "නාච්චදූව වැව​ , පදවිය වැව​ , ගිරිතර වැව",
     "years of reign": 20,
     "reign": {
       "gte": 540,
@@ -2250,8 +2078,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 560,
-    "end of reign": 561,
     "years of reign": 1,
     "reign": {
       "gte": 560,
@@ -2276,8 +2102,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 561,
-    "end of reign": 564,
     "years of reign": 3,
     "reign": {
       "gte": 561,
@@ -2288,7 +2112,7 @@
     "description": ""
   },
   {
-    "name sin": "Iවන අග්ගබෝධි,Iවන අග්බෝ",
+    "name sin": "Iවන අග්ගබෝධි , Iවන අග්බෝ",
     "name eng": "Aggabodhi I",
     "house eng": "Moriya",
     "house sin": "මෝරිය",
@@ -2300,10 +2124,8 @@
     "other constructions sin": "කුට්ටම් පොකුණ",
     "Inscriptions eng": "",
     "Inscriptions sin": "",
-    "irrigation work eng": "Mamaduwa Lake, Cinnamon Lake, Siriwaddamanaka Lake, Mihinthala Lake",
-    "irrigation work sin": "මාමඩුව වැව​,කුරුඳු වැව​,සිරිවඩ්ඩමානක වැව,මිහින්තලා වැව",
-    "start of reign": 564,
-    "end of reign": 598,
+    "irrigation work eng": "Mamaduwa Lake , Cinnamon Lake , Siriwaddamanaka Lake , Mihinthala Lake",
+    "irrigation work sin": "මාමඩුව වැව​ , කුරුඳු වැව​ , සිරිවඩ්ඩමානක වැව , මිහින්තලා වැව",
     "years of reign": 34,
     "reign": {
       "gte": 564,
@@ -2314,7 +2136,7 @@
     "description": ""
   },
   {
-    "name sin": "IIවන අග්ගබෝධි,IIවන අග්බෝ",
+    "name sin": "IIවන අග්ගබෝධි , IIවන අග්බෝ",
     "name eng": "Aggabodhi II",
     "house eng": "Moriya",
     "house sin": "මෝරිය",
@@ -2326,10 +2148,8 @@
     "other constructions sin": "",
     "Inscriptions eng": "",
     "Inscriptions sin": "",
-    "irrigation work eng": "Giritale Lake, Kantale Lake",
-    "irrigation work sin": "ගිරිතලේ වැව,කන්තලේ වැව",
-    "start of reign": 598,
-    "end of reign": 608,
+    "irrigation work eng": "Giritale Lake , Kantale Lake",
+    "irrigation work sin": "ගිරිතලේ වැව , කන්තලේ වැව",
     "years of reign": 10,
     "reign": {
       "gte": 598,
@@ -2354,8 +2174,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 608,
-    "end of reign": 608,
     "years of reign": 0,
     "reign": {
       "gte": 608,
@@ -2366,7 +2184,7 @@
     "description": ""
   },
   {
-    "name sin": "IIIවන මොග්ගල්ලාන,IIIවන මුගලන්",
+    "name sin": "IIIවන මොග්ගල්ලාන , IIIවන මුගලන්",
     "name eng": "Moggallana III",
     "house eng": "Moriya",
     "house sin": "මෝරිය",
@@ -2380,8 +2198,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 608,
-    "end of reign": 614,
     "years of reign": 6,
     "reign": {
       "gte": 608,
@@ -2406,8 +2222,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 614,
-    "end of reign": 623,
     "years of reign": 9,
     "reign": {
       "gte": 614,
@@ -2418,7 +2232,7 @@
     "description": ""
   },
   {
-    "name sin": "IIIවන අග්ගබෝධි,IIIවන අග්බෝ",
+    "name sin": "IIIවන අග්ගබෝධි , IIIවන අග්බෝ",
     "name eng": "Aggabodhi III",
     "house eng": "Moriya",
     "house sin": "මෝරිය",
@@ -2432,8 +2246,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 623,
-    "end of reign": 623,
     "years of reign": 0,
     "reign": {
       "gte": 623,
@@ -2458,8 +2270,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 623,
-    "end of reign": 624,
     "years of reign": 1,
     "reign": {
       "gte": 623,
@@ -2484,8 +2294,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 624,
-    "end of reign": 640,
     "years of reign": 16,
     "reign": {
       "gte": 624,
@@ -2496,8 +2304,8 @@
     "description": ""
   },
   {
-    "name sin": "Iවන දාඨෝපතිස්ස,හත්ථදාඨ",
-    "name eng": "Dathopa Tissa I,Hatthadpatha",
+    "name sin": "Iවන දාඨෝපතිස්ස , හත්ථදාඨ",
+    "name eng": "Dathopa Tissa I , Hatthadpatha",
     "house eng": "Moriya",
     "house sin": "මෝරිය",
     "kingdom eng": "Anuradhapura",
@@ -2510,8 +2318,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 640,
-    "end of reign": 652,
     "years of reign": 12,
     "reign": {
       "gte": 640,
@@ -2536,8 +2342,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 652,
-    "end of reign": 661,
     "years of reign": 9,
     "reign": {
       "gte": 652,
@@ -2562,8 +2366,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 661,
-    "end of reign": 664,
     "years of reign": 3,
     "reign": {
       "gte": 661,
@@ -2588,8 +2390,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 664,
-    "end of reign": 673,
     "years of reign": 9,
     "reign": {
       "gte": 664,
@@ -2600,7 +2400,7 @@
     "description": ""
   },
   {
-    "name sin": "IVවන අග්ගබෝධි,IVවන අග්බෝ",
+    "name sin": "IVවන අග්ගබෝධි , IVවන අග්බෝ",
     "name eng": "Aggabodhi IV",
     "house eng": "Moriya",
     "house sin": "මෝරිය",
@@ -2614,8 +2414,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 673,
-    "end of reign": 689,
     "years of reign": 16,
     "reign": {
       "gte": 673,
@@ -2640,8 +2438,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 691,
-    "end of reign": 691,
     "years of reign": 0,
     "reign": {
       "gte": 691,
@@ -2666,19 +2462,17 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 691,
-    "end of reign": 726,
     "years of reign": 35,
     "reign": {
       "gte": 691,
       "lte": 726
     },
     "claim to the throne sin": "Iවන කස්සපගේ පුත්‍රයායි.",
-    "claim to the throne eng": "Son of Kassapa I.Descendant of Silamegahavanna",
+    "claim to the throne eng": "Son of Kassapa I. Descendant of Silamegahavanna",
     "description": "සිලාමේඝවණ්ණගෙන් පැවතෙන්නෙකි. දෙවන දාඨෝපතිසුස රජුගේ කාලයේ ඉන්දියාවට පලා ගොස් එහිදී සටන් ශිල්ප හදාරා පසුව ඉන්දියාවේ පල්ලව රජුගේ හමුදාවට බැදී රජුගේ සිත දිනාගෙන පල්ලව රජුගේ උදවු ඇතිව සේනාවක් සමග ලංකාවට පැමින හත්ථදාට රජුමරා සිහසුන ලබාගත්හ."
   },
   {
-    "name sin": "Vවන අග්ගබෝධි,Vවන අග්බෝ",
+    "name sin": "Vවන අග්ගබෝධි , Vවන අග්බෝ",
     "name eng": "Aggabodhi V",
     "house eng": "Lambakanna II",
     "house sin": "IIවන ලම්බකර්ණ",
@@ -2692,8 +2486,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 726,
-    "end of reign": 732,
     "years of reign": 6,
     "reign": {
       "gte": 726,
@@ -2718,8 +2510,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 732,
-    "end of reign": 738,
     "years of reign": 6,
     "reign": {
       "gte": 732,
@@ -2744,8 +2534,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 738,
-    "end of reign": 741,
     "years of reign": 3,
     "reign": {
       "gte": 738,
@@ -2756,7 +2544,7 @@
     "description": ""
   },
   {
-    "name sin": "VIවන අග්ගබෝධි,VIවන අග්බෝ",
+    "name sin": "VIවන අග්ගබෝධි , VIවන අග්බෝ",
     "name eng": "Aggabodhi VI",
     "house eng": "Lambakanna II",
     "house sin": "IIවන ලම්බකර්ණ",
@@ -2770,8 +2558,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 741,
-    "end of reign": 781,
     "years of reign": 40,
     "reign": {
       "gte": 741,
@@ -2782,7 +2568,7 @@
     "description": ""
   },
   {
-    "name sin": "VIIවන අග්ගබෝධි,VIIවන අග්බෝ",
+    "name sin": "VIIවන අග්ගබෝධි , VIIවන අග්බෝ",
     "name eng": "Aggabodhi VII",
     "house eng": "Lambakanna II",
     "house sin": "IIවන ලම්බකර්ණ",
@@ -2796,8 +2582,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 781,
-    "end of reign": 787,
     "years of reign": 6,
     "reign": {
       "gte": 781,
@@ -2805,11 +2589,11 @@
     },
     "claim to the throne sin": "මහින්දගේ පුත්‍රයෙකි.",
     "claim to the throne eng": "Son of Mahinda",
-    "description": "පොළොන්නරුවේ සිට"
+    "description": ""
   },
   {
-    "name sin": "IIවන මහින්ද,සිලාමේඝ",
-    "name eng": "Mahinda II,Silamegha",
+    "name sin": "IIවන මහින්ද , සිලාමේඝ",
+    "name eng": "Mahinda II , Silamegha",
     "house eng": "Lambakanna II",
     "house sin": "IIවන ලම්බකර්ණ",
     "kingdom eng": "Anuradhapura",
@@ -2822,8 +2606,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 787,
-    "end of reign": 807,
     "years of reign": 20,
     "reign": {
       "gte": 787,
@@ -2848,15 +2630,13 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 807,
-    "end of reign": 812,
     "years of reign": 5,
     "reign": {
       "gte": 807,
       "lte": 812
     },
     "claim to the throne sin": "IIවන මහින්දගේ පුත්‍රයායි. IIවන මහින්දගේ උප-රජෙකි.",
-    "claim to the throne eng": "Son of Mahinda II.The sub-king of Mahinda II",
+    "claim to the throne eng": "Son of Mahinda II. The sub-king of Mahinda II",
     "description": ""
   },
   {
@@ -2874,8 +2654,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 812,
-    "end of reign": 816,
     "years of reign": 4,
     "reign": {
       "gte": 812,
@@ -2886,7 +2664,7 @@
     "description": ""
   },
   {
-    "name sin": "VIIIවන අග්ගබෝධි,VIIIවන අග්බෝ",
+    "name sin": "VIIIවන අග්ගබෝධි , VIIIවන අග්බෝ",
     "name eng": "Aggabodhi VIII",
     "house eng": "Lambakanna II",
     "house sin": "IIවන ලම්බකර්ණ",
@@ -2900,8 +2678,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 816,
-    "end of reign": 827,
     "years of reign": 11,
     "reign": {
       "gte": 816,
@@ -2926,8 +2702,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 827,
-    "end of reign": 843,
     "years of reign": 16,
     "reign": {
       "gte": 827,
@@ -2938,7 +2712,7 @@
     "description": ""
   },
   {
-    "name sin": "IXවන අග්ගබෝධි,IXවන අග්බෝ",
+    "name sin": "IXවන අග්ගබෝධි , IXවන අග්බෝ",
     "name eng": "Aggabodhi IX",
     "house eng": "Lambakanna II",
     "house sin": "IIවන ලම්බකර්ණ",
@@ -2952,8 +2726,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 843,
-    "end of reign": 846,
     "years of reign": 3,
     "reign": {
       "gte": 843,
@@ -2978,8 +2750,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 846,
-    "end of reign": 866,
     "years of reign": 20,
     "reign": {
       "gte": 846,
@@ -3004,15 +2774,13 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 866,
-    "end of reign": 901,
     "years of reign": 35,
     "reign": {
       "gte": 866,
       "lte": 901
     },
-    "claim to the throne sin": "Iවන සේනගේ බෑණායි.කස්සපගේ පුත්‍රයායි.",
-    "claim to the throne eng": "Nephew of Sena I.Son of Kassapa",
+    "claim to the throne sin": "Iවන සේනගේ බෑණායි. කස්සපගේ පුත්‍රයායි.",
+    "claim to the throne eng": "Nephew of Sena I. Son of Kassapa",
     "description": ""
   },
   {
@@ -3030,8 +2798,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 901,
-    "end of reign": 912,
     "years of reign": 11,
     "reign": {
       "gte": 901,
@@ -3056,15 +2822,13 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 912,
-    "end of reign": 929,
     "years of reign": 17,
     "reign": {
       "gte": 912,
       "lte": 929
     },
     "claim to the throne sin": "IIවන සේනගේ පුත්‍රයායි. Iවන උදයගේ උප-රජෙකි.",
-    "claim to the throne eng": "Son of Sena II.Sub-king of Udaya I",
+    "claim to the throne eng": "Son of Sena II. Sub-king of Udaya I",
     "description": ""
   },
   {
@@ -3082,8 +2846,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 929,
-    "end of reign": 939,
     "years of reign": 10,
     "reign": {
       "gte": 929,
@@ -3091,7 +2853,7 @@
     },
     "claim to the throne sin": "IVවන කස්සපගේ පුත්‍රයායි.",
     "claim to the throne eng": "Son of Kassapa IV",
-    "description": "රක්ත සේනාවක් විය.මහාවංශ අටුවාව වන දම්පියා අටුවා ගැටපදය රචනා කරනු ලැබිය."
+    "description": "රක්ත සේනාවක් විය. මහාවංශ අටුවාව වන දම්පියා අටුවා ගැටපදය රචනා කරනු ලැබිය."
   },
   {
     "name sin": "IVවන දප්පුල",
@@ -3108,8 +2870,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 939,
-    "end of reign": 940,
     "years of reign": 1,
     "reign": {
       "gte": 939,
@@ -3134,8 +2894,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 940,
-    "end of reign": 952,
     "years of reign": 12,
     "reign": {
       "gte": 940,
@@ -3160,15 +2918,13 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 952,
-    "end of reign": 955,
     "years of reign": 3,
     "reign": {
       "gte": 952,
       "lte": 955
     },
     "claim to the throne sin": "IIවන සේනගේ බෑණායි. Vවන දප්පුලගේ උප-රජෙකි.",
-    "claim to the throne eng": "Nephew of Sena II.Sub-king of Dappula V",
+    "claim to the throne eng": "Nephew of Sena II. Sub-king of Dappula V",
     "description": ""
   },
   {
@@ -3186,8 +2942,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 955,
-    "end of reign": 964,
     "years of reign": 9,
     "reign": {
       "gte": 955,
@@ -3212,8 +2966,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 964,
-    "end of reign": 972,
     "years of reign": 8,
     "reign": {
       "gte": 964,
@@ -3238,15 +2990,13 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 972,
-    "end of reign": 975,
     "years of reign": 3,
     "reign": {
       "gte": 972,
       "lte": 975
     },
     "claim to the throne sin": "Vවන කස්සපගේ පුත්‍රයායි. IIIවන උදයගේ උප-රජෙකි.",
-    "claim to the throne eng": "Son of Kassapa V.Sub-king of Udaya III",
+    "claim to the throne eng": "Son of Kassapa V. Sub-king of Udaya III",
     "description": ""
   },
   {
@@ -3264,15 +3014,13 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 975,
-    "end of reign": 991,
     "years of reign": 16,
     "reign": {
       "gte": 975,
       "lte": 991
     },
-    "claim to the throne sin": "IVවන සේනගේ සොහොයුරායි. IIIවන උදයගේ බෑණායි.සේනගේ උප-රජෙකි.",
-    "claim to the throne eng": "Brother of Sena IV.Nephew of Udaya III.Sub-king of Sena",
+    "claim to the throne sin": "IVවන සේනගේ සොහොයුරායි. IIIවන උදයගේ බෑණායි. සේනගේ උප-රජෙකි.",
+    "claim to the throne eng": "Brother of Sena IV. Nephew of Udaya III. Sub-king of Sena",
     "description": ""
   },
   {
@@ -3290,8 +3038,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 991,
-    "end of reign": 1001,
     "years of reign": 10,
     "reign": {
       "gte": 991,
@@ -3316,8 +3062,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1001,
-    "end of reign": 1017,
     "years of reign": 16,
     "reign": {
       "gte": 1001,
@@ -3342,8 +3086,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1017,
-    "end of reign": 1044,
     "years of reign": 27,
     "reign": {
       "gte": 1017,
@@ -3368,8 +3110,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1018,
-    "end of reign": 1054,
     "years of reign": 36,
     "reign": {
       "gte": 1018,
@@ -3394,8 +3134,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1051,
-    "end of reign": 1063,
     "years of reign": 12,
     "reign": {
       "gte": 1051,
@@ -3404,6 +3142,30 @@
     "claim to the throne sin": "රාජේන්ද්‍රගේ පුත්‍රයෙකි.",
     "claim to the throne eng": "Son of Rajendra.",
     "description": ""
+  },
+  {
+    "name sin": "Iවන විජයබාහු",
+    "name eng": "Vijayabahu I",
+    "house eng": "Vijayabahu",
+    "house sin": "විජයබාහු",
+    "kingdom eng": "Polonnaruwa",
+    "kingdom sin": "පොළොන්නරු",
+    "Temples eng": "Stone Temple",
+    "Temples sin": "ගල් විහාරය",
+    "other constructions eng": "",
+    "other constructions sin": "",
+    "Inscriptions eng": "Ambagamuwa Inscription , Panakaduwa Copper Sannasa",
+    "Inscriptions sin": "අඹගමුව සෙල් ලිපිය , පනාකඩුව තඹ සන්නස",
+    "irrigation work eng": "Buduguna Wewa",
+    "irrigation work sin": "බුදුගුණ වැව",
+    "years of reign": 55,
+    "reign": {
+      "gte": 1056,
+      "lte": 1111
+    },
+    "claim to the throne sin": "",
+    "claim to the throne eng": "",
+    "description": "වසර 17 ක දිගු සටන් මෙහෙයුමකින් පසු චෝල ආක්‍රමණිකයන් සම්පුර්ණයෙන්ම ශ්‍රී ලංකාවේන් එලවා දැමිමට සමත් විය. සියවසකට පසු ශ්‍රී ලංකාව නැවත එක්සත් කිරිමට එමගින් එතුමාට හැකිවිය. එතුමාගේ පාලන කාලය තුල බුද්ධ ධර්මය නැවත පිහිටුවිමටත් යුද්ධය නිසා විනාශ වු යටිතල පහසුකම් , වෙහෙර විහාර , ගොඩනැගිලි ආදිය අළුත් වැඩියා කිරිමටත් කටයුතු කරන ලදි."
   },
   {
     "name sin": "වීරරාජේන්ද්‍ර චෝළ",
@@ -3420,8 +3182,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1063,
-    "end of reign": 1070,
     "years of reign": 7,
     "reign": {
       "gte": 1063,
@@ -3446,8 +3206,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1067,
-    "end of reign": 1070,
     "years of reign": 3,
     "reign": {
       "gte": 1067,
@@ -3456,32 +3214,6 @@
     "claim to the throne sin": "වීරරාජේන්ද්‍ර චෝළගේ පුත්‍රයෙකි.",
     "claim to the throne eng": "son of Weerarajendra Chola",
     "description": ""
-  },
-  {
-    "name sin": "Iවන විජයබාහු",
-    "name eng": "Vijayabahu I",
-    "house eng": "Vijayabahu",
-    "house sin": "විජයබාහු",
-    "kingdom eng": "Polonnaruwa",
-    "kingdom sin": "පොළොන්නරු",
-    "Temples eng": "Stone Temple",
-    "Temples sin": "ගල් විහාරය",
-    "other constructions eng": "",
-    "other constructions sin": "",
-    "Inscriptions eng": "Ambagamuwa Inscription, Panakaduwa Copper Sannasa",
-    "Inscriptions sin": "අඹගමුව සෙල් ලිපිය,පනාකඩුව තඹ සන්නස",
-    "irrigation work eng": "Buduguna Wewa",
-    "irrigation work sin": "බුදුගුණ වැව",
-    "start of reign": 1056,
-    "end of reign": 1111,
-    "years of reign": 55,
-    "reign": {
-      "gte": 1056,
-      "lte": 1111
-    },
-    "claim to the throne sin": "",
-    "claim to the throne eng": "",
-    "description": "වසර 17 ක දිගු සටන් මෙහෙයුමකින් පසු චෝල ආක්‍රමණිකයන් සම්පුර්ණයෙන්ම ශ්‍රී ලංකාවේන් එලවා දැමිමට සමත් විය. සියවසකට පසු ශ්‍රී ලංකාව නැවත එක්සත් කිරිමට එමගින් එතුමාට හැකිවිය. එතුමාගේ පාලන කාලය තුල බුද්ධ ධර්මය නැවත පිහිටුවිමටත් යුද්ධය නිසා විනාශ වු යටිතල පහසුකම්, වෙහෙර විහාර, ගොඩනැගිලි ආදිය අළුත් වැඩියා කිරිමටත් කටයුතු කරන ලදි."
   },
   {
     "name sin": "Iවන ජයබාහු",
@@ -3498,16 +3230,14 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1110,
-    "end of reign": 1111,
     "years of reign": 1,
     "reign": {
       "gte": 1110,
       "lte": 1111
     },
     "claim to the throne sin": "Iවන විජයබාහුගේ සොහොයුරායි. Iවන විජයබාහුගේ අග්‍රාමාත්‍යවරයා ද විය.",
-    "claim to the throne eng": "Brother of Vijayabahu I.Prime Minister of Vijayabahu I",
-    "description": "(පොළොන්නරුව සහ රුහුණ)"
+    "claim to the throne eng": "Brother of Vijayabahu I. Prime Minister of Vijayabahu I",
+    "description": ""
   },
   {
     "name sin": "Iවන වික්‍රමබාහු",
@@ -3524,8 +3254,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1111,
-    "end of reign": 1132,
     "years of reign": 21,
     "reign": {
       "gte": 1111,
@@ -3550,8 +3278,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1131,
-    "end of reign": 1153,
     "years of reign": 22,
     "reign": {
       "gte": 1131,
@@ -3562,22 +3288,20 @@
     "description": ""
   },
   {
-    "name sin": "Iවන පරාක්‍රමබාහු,මහා පරාක්‍රමබාහු",
+    "name sin": "Iවන පරාක්‍රමබාහු , මහා පරාක්‍රමබාහු",
     "name eng": "Parakramabahu I 'the Great'",
     "house eng": "Vijayabahu",
     "house sin": "විජයබාහු",
     "kingdom eng": "Polonnaruwa",
     "kingdom sin": "පොළොන්නරු",
-    "Temples eng": "Eherahathi Stone Temple, Vatadage, Lanka Thilaka Temple, Alahana Pirivena, Tamil Maha Seya",
-    "Temples sin": "ඇහඑරහති ගල් විහාරය,වටදාගෙය,ලංකා තිලක විහාරය,ආලාහන පිරිවෙන,දෙමළ මහා සෑය",
+    "Temples eng": "Eherahathi Stone Temple , Vatadage , Lanka Thilaka Temple , Alahana Pirivena , Tamil Maha Seya",
+    "Temples sin": "ඇහඑරහති ගල් විහාරය , වටදාගෙය , ලංකා තිලක විහාරය , ආලාහන පිරිවෙන , දෙමළ මහා සෑය",
     "other constructions eng": "",
     "other constructions sin": "",
     "Inscriptions eng": "",
     "Inscriptions sin": "",
-    "irrigation work eng": "Parakrama Samudraya, Dumbutulu Wewa, Erabadu Wewa, Pada Wewa",
-    "irrigation work sin": "පරාක්‍රම සමුද්‍රය​​,දුඹුටුලු වැව,එරබදු වැව, පඬා වැව",
-    "start of reign": 1153,
-    "end of reign": 1186,
+    "irrigation work eng": "Parakrama Samudraya , Dumbutulu Wewa , Erabadu Wewa , Pada Wewa",
+    "irrigation work sin": "පරාක්‍රම සමුද්‍රය​​ , දුඹුටුලු වැව , එරබදු වැව , පඬා වැව",
     "years of reign": 33,
     "reign": {
       "gte": 1153,
@@ -3585,7 +3309,7 @@
     },
     "claim to the throne sin": "Iවන විජයබාහුගේ මුණුපුරායි.",
     "claim to the throne eng": "Grandson of Vijayabahu I",
-    "description": "දිවයිනෙහි උප රාජධානි තුන, එතුමා විසින් එක්සත් කරන ලදී. තම අග නගරය පුළුල් කෙරුමට හා විචිත්‍රවත් කෙරුමට යුහුසුළු වූ හේ, විසල් වාරිමාර්ග පද්ධතීන් ගොඩනැංවීම, රටෙහි යුද්ධ හමුදාව ප්‍රතිසංවිධානය කිරීම, බෞද්ධ පිළිවෙත් ප්‍රතිසංස්කරණය කිරීම, කලා කටයුතු වලට රුකුල් දීම ආදියෙහි නියැළුනු අතර, දකුණු ඉන්දියාව සහ මියන්මාරය හි හමුදා ක්‍රියාන්විතයන් හිද නිරත විය. \"අහසින් වැ‍ටෙන එක් දිය බිඳුවක්වත් මිනිසාගේ ප්‍රයෝජනයට නොගෙන මුහුදට එක් වීමට ඉඩ නොදිය යුතුය \" යන භාෂණය ඔහුගේ ජනප්‍රිය කියමන් අතුරින් එකකි."
+    "description": "දිවයිනෙහි උප රාජධානි තුන , එතුමා විසින් එක්සත් කරන ලදී. තම අග නගරය පුළුල් කෙරුමට හා විචිත්‍රවත් කෙරුමට යුහුසුළු වූ හේ , විසල් වාරිමාර්ග පද්ධතීන් ගොඩනැංවීම , රටෙහි යුද්ධ හමුදාව ප්‍රතිසංවිධානය කිරීම , බෞද්ධ පිළිවෙත් ප්‍රතිසංස්කරණය කිරීම , කලා කටයුතු වලට රුකුල් දීම ආදියෙහි නියැළුනු අතර , දකුණු ඉන්දියාව සහ මියන්මාරය හි හමුදා ක්‍රියාන්විතයන් හිද නිරත විය. \"අහසින් වැ‍ටෙන එක් දිය බිඳුවක්වත් මිනිසාගේ ප්‍රයෝජනයට නොගෙන මුහුදට එක් වීමට ඉඩ නොදිය යුතුය \" යන භාෂණය ඔහුගේ ජනප්‍රිය කියමන් අතුරින් එකකි."
   },
   {
     "name sin": "IIවන විජයබාහු",
@@ -3602,8 +3326,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1186,
-    "end of reign": 1187,
     "years of reign": 1,
     "reign": {
       "gte": 1186,
@@ -3628,8 +3350,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1187,
-    "end of reign": 1187,
     "years of reign": 0,
     "reign": {
       "gte": 1187,
@@ -3640,22 +3360,20 @@
     "description": ""
   },
   {
-    "name sin": "නිශ්ශංකමල්ල,කිර්ති නිශ්ශංක,කාලිංග ලෝකේශ්වර",
+    "name sin": "නිශ්ශංකමල්ල , කිර්ති නිශ්ශංක , කාලිංග ලෝකේශ්වර",
     "name eng": "Nissanka Malla",
     "house eng": "Kalinga",
     "house sin": "කාලිංග",
     "kingdom eng": "Polonnaruwa",
     "kingdom sin": "පොළොන්නරු",
-    "Temples eng": "Rankoth Viharaya, Hatadage",
-    "Temples sin": "රන්කොත් විහාරය​,හැටදාගේ",
+    "Temples eng": "Rankoth Viharaya , Hatadage",
+    "Temples sin": "රන්කොත් විහාරය​ , හැටදාගේ",
     "other constructions eng": "Nissanka Latha Mandapa",
     "other constructions sin": "නිශ්ශංක ලතා මණ්ඩපය",
-    "Inscriptions eng": "Giritale stone seat inscription, Galpotha inscription, Weligahawatta inscription, Katugahagalle inscription, Rameswaram inscription",
-    "Inscriptions sin": "ගිරිතලේ ගල් ආසන ලිපිය,ගල්පොත ලිපිය,වැලිගහවත්ත ලිපිය,කටුගහගල්ලේ ලිපිය,රාමේශ්වරමේ ලිපිය",
+    "Inscriptions eng": "Giritale stone seat inscription , Galpotha inscription , Weligahawatta inscription , Katugahagalle inscription , Rameswaram inscription",
+    "Inscriptions sin": "ගිරිතලේ ගල් ආසන ලිපිය , ගල්පොත ලිපිය , වැලිගහවත්ත ලිපිය , කටුගහගල්ලේ ලිපිය , රාමේශ්වරමේ ලිපිය",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1187,
-    "end of reign": 1196,
     "years of reign": 9,
     "reign": {
       "gte": 1187,
@@ -3663,7 +3381,7 @@
     },
     "claim to the throne sin": "Iවන පරාක්‍රමබාහු රජුගේ බෑණා හෝ ඥාති පුත්‍රයෙකි.",
     "claim to the throne eng": "Son-in-law or nephew to Parakrama Bahu I",
-    "description": "මහා පරාක්‍රමබාහු රජතුමාගේ අනුප්‍රාප්තිකයා වශයෙන් මෙරට රාජ්‍ය බලය හිමිකර ගත් විදේශීය කුමාරවරයකු ලෙස නිශ්ශංක මල්ල රජු පෙන්වා දිය හැකිය. ඉන්දියාවේ සිට පැමිණියේය​. තුන් රජය පැදකුණු කිරීම, දුස්‌ථ ලංකාවාසීන් සුස්‌ථ කිරිම, පාණ්‌ඩ්‍ය රාජ්‍ය ජයග්‍රහණය කිරීම මෙන්ම නිශ්ශංකමල්ල රජු විදේශ රාජ්‍යයන්ගෙන් පුද පඬුරු ලැබීම යනාදිය වැදගත් ය."
+    "description": "මහා පරාක්‍රමබාහු රජතුමාගේ අනුප්‍රාප්තිකයා වශයෙන් මෙරට රාජ්‍ය බලය හිමිකර ගත් විදේශීය කුමාරවරයකු ලෙස නිශ්ශංක මල්ල රජු පෙන්වා දිය හැකිය. ඉන්දියාවේ සිට පැමිණියේය​. තුන් රජය පැදකුණු කිරීම , දුස්‌ථ ලංකාවාසීන් සුස්‌ථ කිරිම , පාණ්‌ඩ්‍ය රාජ්‍ය ජයග්‍රහණය කිරීම මෙන්ම නිශ්ශංකමල්ල රජු විදේශ රාජ්‍යයන්ගෙන් පුද පඬුරු ලැබීම යනාදිය වැදගත් ය."
   },
   {
     "name sin": "Iවන වීරබාහු",
@@ -3680,8 +3398,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1196,
-    "end of reign": 1196,
     "years of reign": 0,
     "reign": {
       "gte": 1196,
@@ -3706,8 +3422,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1196,
-    "end of reign": 1196,
     "years of reign": 0,
     "reign": {
       "gte": 1196,
@@ -3732,8 +3446,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1196,
-    "end of reign": 1197,
     "years of reign": 1,
     "reign": {
       "gte": 1196,
@@ -3758,8 +3470,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1197,
-    "end of reign": 1200,
     "years of reign": 3,
     "reign": {
       "gte": 1197,
@@ -3784,8 +3494,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1200,
-    "end of reign": 1202,
     "years of reign": 2,
     "reign": {
       "gte": 1200,
@@ -3810,8 +3518,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1202,
-    "end of reign": 1208,
     "years of reign": 6,
     "reign": {
       "gte": 1202,
@@ -3836,8 +3542,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1208,
-    "end of reign": 1209,
     "years of reign": 1,
     "reign": {
       "gte": 1208,
@@ -3862,8 +3566,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1209,
-    "end of reign": 1209,
     "years of reign": 0,
     "reign": {
       "gte": 1209,
@@ -3888,8 +3590,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1210,
-    "end of reign": 1211,
     "years of reign": 1,
     "reign": {
       "gte": 1210,
@@ -3914,8 +3614,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1212,
-    "end of reign": 1215,
     "years of reign": 3,
     "reign": {
       "gte": 1212,
@@ -3940,8 +3638,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1215,
-    "end of reign": 1236,
     "years of reign": 21,
     "reign": {
       "gte": 1215,
@@ -3958,16 +3654,14 @@
     "house sin": "සිරි සඟ බෝ",
     "kingdom eng": "Dambadeniya",
     "kingdom sin": "දඹදෙණිය",
-    "Temples eng": "Beligala Temple of the Tooth, Vijayasundaramaya in Dambadeniya, Vijayabahu Temple in Wattala",
-    "Temples sin": "බෙලිගල දළදා මාලිගය,දඹදෙනියේ විජයසුන්දරාරාමය,වත්තල විජයබාහු විහාරය",
+    "Temples eng": "Beligala Temple of the Tooth , Vijayasundaramaya in Dambadeniya , Vijayabahu Temple in Wattala",
+    "Temples sin": "බෙලිගල දළදා මාලිගය , දඹදෙනියේ විජයසුන්දරාරාමය , වත්තල විජයබාහු විහාරය",
     "other constructions eng": "",
     "other constructions sin": "",
     "Inscriptions eng": "",
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1220,
-    "end of reign": 1224,
     "years of reign": 4,
     "reign": {
       "gte": 1220,
@@ -3975,11 +3669,11 @@
     },
     "claim to the throne sin": "",
     "claim to the throne eng": "",
-    "description": "දඹදෙනිය අග නගරය බවට පත් කරගෙන රාජ්‍යත්වයට පත්වු කුමරෙක් විය. මායා රට එක්සත් කොට එහි දේශපාලන ස්ථාවරත්වයක් ඇති කිරීමට හැකි විය. රැකවරණය පතා විදේශ ගත වූ භික්ෂූන් වහන්සේලා ආපසු ගෙන්වා ගැනීම, උපසම්පදා මංගල්‍යය යළි පවත්වා සංඝ සංශෝධනයක් කරවීම මෙතුමා විසින් කරන ලදි."
+    "description": "දඹදෙනිය අග නගරය බවට පත් කරගෙන රාජ්‍යත්වයට පත්වු කුමරෙක් විය. මායා රට එක්සත් කොට එහි දේශපාලන ස්ථාවරත්වයක් ඇති කිරීමට හැකි විය. රැකවරණය පතා විදේශ ගත වූ භික්ෂූන් වහන්සේලා ආපසු ගෙන්වා ගැනීම , උපසම්පදා මංගල්‍යය යළි පවත්වා සංඝ සංශෝධනයක් කරවීම මෙතුමා විසින් කරන ලදි."
   },
   {
     "name sin": "IIවන පරාක්‍රමබාහු",
-    "name eng": "Parakkamabahu II",
+    "name eng": "Parakramabahu II",
     "house eng": "Siri Sanga Bo",
     "house sin": "සිරි සඟ බෝ",
     "kingdom eng": "Dambadeniya",
@@ -3992,8 +3686,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1234,
-    "end of reign": 1269,
     "years of reign": 35,
     "reign": {
       "gte": 1234,
@@ -4001,10 +3693,10 @@
     },
     "claim to the throne sin": "IIIවන විජයබාහුගේ වැඩිමහල් පුත්‍රයායි.",
     "claim to the throne eng": "Eldest son of Vijaya Bahu III",
-    "description": "දෙවන පරාක්‍රමබාහු රජතුමා බෙලිගල තිබූ දාන්ත ධාතූන් වහන්සේදඹදෙනිය ට වැඩම කර අති උත්කර්ෂවත් දළදා පූජාවක් පවත්වාමාඝ ගෙන් රට මුදවා ගන්නා බවට මහජනතාව ඉදිරියේ ප්‍රතිඥාවක් ද දුන්නේය. භාසා ශාස්ත්‍ර, ආගම් ධර්මය ආදී විසයයන් පිළිබඳ මනා නිපුනතාවයක් තිබූ නිසා මහා පඬි රුවනක් වූ දෙවන පරාක්‍රමබාහු රජ \"කලිකාල සාහිත්‍ය සර්වඥ පණ්ඩිත\" යන උපාධි නාමයෙන් ද පිදුම් ලැබීය. දෙවන් පරාක්‍රමබාහු රජතුමාට ආක්‍රමණකාරී සටන් 3කට මුහුණ දීමට සිදු විය. ඒවා නම් මාඝ රජු සමඟ පැවති යුද්ධය, චන්ද්‍රභානු රජුගේ පළමු ආක්‍රමණය හා චන්ද්‍රභානු රජුගේ දෙවන අක්‍රමණයයි."
+    "description": "දෙවන පරාක්‍රමබාහු රජතුමා බෙලිගල තිබූ දාන්ත ධාතූන් වහන්සේදඹදෙනිය ට වැඩම කර අති උත්කර්ෂවත් දළදා පූජාවක් පවත්වාමාඝ ගෙන් රට මුදවා ගන්නා බවට මහජනතාව ඉදිරියේ ප්‍රතිඥාවක් ද දුන්නේය. භාසා ශාස්ත්‍ර , ආගම් ධර්මය ආදී විසයයන් පිළිබඳ මනා නිපුනතාවයක් තිබූ නිසා මහා පඬි රුවනක් වූ දෙවන පරාක්‍රමබාහු රජ \"කලිකාල සාහිත්‍ය සර්වඥ පණ්ඩිත\" යන උපාධි නාමයෙන් ද පිදුම් ලැබීය. දෙවන් පරාක්‍රමබාහු රජතුමාට ආක්‍රමණකාරී සටන් 3කට මුහුණ දීමට සිදු විය. ඒවා නම් මාඝ රජු සමඟ පැවති යුද්ධය , චන්ද්‍රභානු රජුගේ පළමු ආක්‍රමණය හා චන්ද්‍රභානු රජුගේ දෙවන අක්‍රමණයයි."
   },
   {
-    "name sin": "IVවන විජයබාහු,බෝසත් විජයබාහු",
+    "name sin": "IVවන විජයබාහු , බෝසත් විජයබාහු",
     "name eng": "Vijayabahu IV",
     "house eng": "Siri Sanga Bo",
     "house sin": "සිරි සඟ බෝ",
@@ -4018,8 +3710,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1267,
-    "end of reign": 1270,
     "years of reign": 3,
     "reign": {
       "gte": 1267,
@@ -4044,8 +3734,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1271,
-    "end of reign": 1283,
     "years of reign": 12,
     "reign": {
       "gte": 1271,
@@ -4057,7 +3745,7 @@
   },
   {
     "name sin": "IIIවන පරාක්‍රමබාහු",
-    "name eng": "Parakkamabahu III",
+    "name eng": "Parakramabahu III",
     "house eng": "Siri Sanga Bo",
     "house sin": "සිරි සඟ බෝ",
     "kingdom eng": "Polonnaruwa",
@@ -4070,8 +3758,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1302,
-    "end of reign": 1310,
     "years of reign": 8,
     "reign": {
       "gte": 1302,
@@ -4082,7 +3768,7 @@
     "description": "පාණ්ඩ්‍ය දේශයට ගොස් දන්ත ධාතුව හා පාත්‍රා ධාතුව ලබා ගෙන පොළොන්නරුව අග නගරය කරගෙන රාජ්‍යත්වයට පත් විය."
   },
   {
-    "name sin": "IIවන බුවනෙකබාහු,ශ්‍රී නිවාස බුවනෙකබාහු",
+    "name sin": "IIවන බුවනෙකබාහු , ශ්‍රී නිවාස බුවනෙකබාහු",
     "name eng": "Bhuvanaikabahu II",
     "house eng": "Siri Sanga Bo",
     "house sin": "සිරි සඟ බෝ",
@@ -4096,20 +3782,18 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1310,
-    "end of reign": 1325,
     "years of reign": 15,
     "reign": {
       "gte": 1310,
       "lte": 1325
     },
     "claim to the throne sin": "Iවන ුබවනෙකබාහුගේ පුත්‍රයායි. IIIවන පරාක්‍රමබාහුගේ ඥාති සොහොයුරායි.",
-    "claim to the throne eng": "Son of Buvaneka Bahu I.Cousin of Parakrama Bahu III",
+    "claim to the throne eng": "Son of Buvaneka Bahu I. Cousin of Parakrama Bahu III",
     "description": "තුන්වන පරාක්‍රමබාහු රජ පරාජය කර යාපහුව අගනුවර කරගෙන රජ විය. ඉන්පසු ක්‍රිස්තු වර්ෂ 1300 දී තම රාජධානිය ලෙස කුරුණෑගල තෝරා ගත්තේය."
   },
   {
-    "name sin": "IVවන පරාක්‍රමබාහු,පණ්ඩිත පරාක්‍රමබාහු",
-    "name eng": "Parakkamabahu IV",
+    "name sin": "IVවන පරාක්‍රමබාහු , පණ්ඩිත පරාක්‍රමබාහු",
+    "name eng": "Parakramabahu IV",
     "house eng": "Siri Sanga Bo",
     "house sin": "සිරි සඟ බෝ",
     "kingdom eng": "Kurunegala",
@@ -4122,8 +3806,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1325,
-    "end of reign": 1325,
     "years of reign": 0,
     "reign": {
       "gte": 1325,
@@ -4131,10 +3813,10 @@
     },
     "claim to the throne sin": "IIවන බුවනෙකබාහුගේ පුත්‍රයායි.",
     "claim to the throne eng": "Son of Buvanekka Bahu II",
-    "description": "කුරුණෑගල යුගය ප්‍රතාපවත් කළ ශ්‍රේෂ්ඨ නරපතියකු ලෙස මොහු වැදගත් වේ. බුදු දදහමට හා ශාස්ත්‍රීය අංශයේ දියුණුවට ඉමහත් සේවයක් මෙම රජතුමාගෙන් සිදු විය. කුරුණෑගල නගරයේ දළදා මාලිගාවක් කරවීම, දළදා වහන්සේගේ ආරක්ෂාවට හා නඩත්තුවට ගම්වර පූජා කිරීම, දළදා සිරිත ලියවීම, ජාතක පොත සිංහලට හැරවීමට අනුග්‍රහය දැක්වීම,වීදාගම ඝනානන්ද පිරිවෙනට හා තොටගමුවේ විජයබා පිරිවෙනට අනුග්‍රහය දැක්වීම, මහනුවර අස්ගිරි සේනාසනය ආරම්භ කිරීම, සිංහල බෝධි වංශය අනාගත වංශය වැනි පොත් ලියවීම යනාදිය මෙම රජතුමාගෙන් වූ සේවාවන් ලෙස දැක්විය හැකිය."
+    "description": "කුරුණෑගල යුගය ප්‍රතාපවත් කළ ශ්‍රේෂ්ඨ නරපතියකු ලෙස මොහු වැදගත් වේ.  බුදු දදහමට හා ශාස්ත්‍රීය අංශයේ දියුණුවට ඉමහත් සේවයක් මෙම රජතුමාගෙන් සිදු විය. කුරුණෑගල නගරයේ දළදා මාලිගාවක් කරවීම , දළදා වහන්සේගේ ආරක්ෂාවට හා නඩත්තුවට ගම්වර පූජා කිරීම , දළදා සිරිත ලියවීම , ජාතක පොත සිංහලට හැරවීමට අනුග්‍රහය දැක්වීම , වීදාගම ඝනානන්ද පිරිවෙනට හා තොටගමුවේ විජයබා පිරිවෙනට අනුග්‍රහය දැක්වීම , මහනුවර අස්ගිරි සේනාසනය ආරම්භ කිරීම , සිංහල බෝධි වංශය අනාගත වංශය වැනි පොත් ලියවීම යනාදිය මෙම රජතුමාගෙන් වූ සේවාවන් ලෙස දැක්විය හැකිය."
   },
   {
-    "name sin": "IIIවන බුවනෙකබාහු,වන්නි බුවනෙකබාහු",
+    "name sin": "IIIවන බුවනෙකබාහු , වන්නි බුවනෙකබාහු",
     "name eng": "Bhuvanaikabahu III",
     "house eng": "Siri Sanga Bo",
     "house sin": "සිරි සඟ බෝ",
@@ -4148,8 +3830,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1325,
-    "end of reign": 1325,
     "years of reign": 0,
     "reign": {
       "gte": 1325,
@@ -4174,8 +3854,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1325,
-    "end of reign": 1344,
     "years of reign": 19,
     "reign": {
       "gte": 1325,
@@ -4200,8 +3878,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1344,
-    "end of reign": 1353,
     "years of reign": 9,
     "reign": {
       "gte": 1344,
@@ -4209,11 +3885,11 @@
     },
     "claim to the throne sin": "Vවන විජයබාහුගේ පුත්‍රයායි.",
     "claim to the throne eng": "Son of Vijaya Bahu V",
-    "description": "ඒ කාලයේම ඔහුගේ සහෝදර පස්වන පරාක්‍රමබාහු කෑගලු දිස්ත්‍රික්කයේ දැදිගම පාලනය කළේය. මේ යුගයේම අලකේශ්වර නම් වූ ප්‍රභූ පරම්පරාවක් කළුතර දිස්ත්‍රික්කයේ රයිගම බලවත් වී සිටි අතර, ගම්පොළ රජ පවුල හා සම්බන්ධතා පැවැත්වූ තවත් ප්‍රධාන පවුලක් වශයෙන් සේනාධිලංකාර සෙනෙවිරත් පවුල හැඳින්විය හැකිය."
+    "description": "ඒ කාලයේම ඔහුගේ සහෝදර පස්වන පරාක්‍රමබාහු කෑගලු දිස්ත්‍රික්කයේ දැදිගම පාලනය කළේය. මේ යුගයේම අලකේශ්වර නම් වූ ප්‍රභූ පරම්පරාවක් කළුතර දිස්ත්‍රික්කයේ රයිගම බලවත් වී සිටි අතර , ගම්පොළ රජ පවුල හා සම්බන්ධතා පැවැත්වූ තවත් ප්‍රධාන පවුලක් වශයෙන් සේනාධිලංකාර සෙනෙවිරත් පවුල හැඳින්විය හැකිය."
   },
   {
     "name sin": "Vවන පරාක්‍රමබාහු",
-    "name eng": "Parakkamabahu V",
+    "name eng": "Parakramabahu V",
     "house eng": "Siri Sanga Bo",
     "house sin": "සිරි සඟ බෝ",
     "kingdom eng": "Gampola",
@@ -4226,15 +3902,13 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1344,
-    "end of reign": 1359,
     "years of reign": 15,
     "reign": {
       "gte": 1344,
       "lte": 1359
     },
     "claim to the throne sin": "Vවන විජයබාහුගේ පුත්‍රයායි. IVවන බුවනෙකබාහුගේ සොහොයුරායි.",
-    "claim to the throne eng": "Son of Vijaya Bahu V.Brother of Buvaneka Bahu IV",
+    "claim to the throne eng": "Son of Vijaya Bahu V. Brother of Buvaneka Bahu IV",
     "description": "දැදිගම තමාගේම රාජධානියක් පවත්වා ගෙන ආ මෙම රජතුමා හතරවන බුවනෙකබාහු රජතුමාගෙන් පසු ගම්පොළ රාජ්‍යත්වයට පත් විය."
   },
   {
@@ -4252,8 +3926,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1357,
-    "end of reign": 1374,
     "years of reign": 17,
     "reign": {
       "gte": 1357,
@@ -4278,8 +3950,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1372,
-    "end of reign": 1391,
     "years of reign": 19,
     "reign": {
       "gte": 1372,
@@ -4304,8 +3974,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1391,
-    "end of reign": 1397,
     "years of reign": 6,
     "reign": {
       "gte": 1391,
@@ -4316,8 +3984,8 @@
     "description": ""
   },
   {
-    "name sin": "වීර අලකේශ්වර,VIවන විජයබාහු",
-    "name eng": "Vira Alakesvara(a.k.a. Vijaya Bahu VI)",
+    "name sin": "වීර අලකේශ්වර , VIවන විජයබාහු",
+    "name eng": "Vira Alakesvara(a. k. a. Vijaya Bahu VI)",
     "house eng": "Siri Sanga Bo",
     "house sin": "සිරි සඟ බෝ",
     "kingdom eng": "Gampola",
@@ -4330,8 +3998,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1397,
-    "end of reign": 1409,
     "years of reign": 12,
     "reign": {
       "gte": 1397,
@@ -4343,7 +4009,7 @@
   },
   {
     "name sin": "පරාක්‍රමබාහු ඈපා",
-    "name eng": "Parakrama Bahu Epa",
+    "name eng": "Parakramabahu Epa",
     "house eng": "Siri Sanga Bo",
     "house sin": "සිරි සඟ බෝ",
     "kingdom eng": "Gampola",
@@ -4356,15 +4022,13 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1409,
-    "end of reign": 1412,
     "years of reign": 3,
     "reign": {
       "gte": 1409,
       "lte": 1412
     },
     "claim to the throne sin": "IVවන බුවනෙකබාහු රජුගේ අමාත්‍යවරයකු වූසේනාලංකාධිකාර සෙනෙවිරත්ගේ මුණුපුරායි.",
-    "claim to the throne eng": "Grandson of Senalankahikara Senevirat.minister of Bhuvanaikabahu IV.",
+    "claim to the throne eng": "Grandson of Senalankahikara Senevirat. minister of Bhuvanaikabahu IV.",
     "description": ""
   },
   {
@@ -4374,28 +4038,26 @@
     "house sin": "සිරි සඟ බෝ",
     "kingdom eng": "Kotte",
     "kingdom sin": "කෝට්ටේ",
-    "Temples eng": "Bellanwila Rajamaha Viharaya, Kotte Rajamaha Viharaya",
-    "Temples sin": "බෙල්ලන්විල රජමහා විහාරය,කෝට්ටේ රජමහා විහාරය",
+    "Temples eng": "Bellanwila Rajamaha Viharaya , Kotte Rajamaha Viharaya",
+    "Temples sin": "බෙල්ලන්විල රජමහා විහාරය , කෝට්ටේ රජමහා විහාරය",
     "other constructions eng": "",
     "other constructions sin": "",
     "Inscriptions eng": "",
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1412,
-    "end of reign": 1467,
     "years of reign": 55,
     "reign": {
       "gte": 1412,
       "lte": 1467
     },
     "claim to the throne sin": "VIවන විජයබාහු රජුගේ සහ සුනේත්‍රා දේවි රැජිනගේ පුත්‍රයායි. එසේ නොවේ නම් යාපා පටුනේ චන්ද්‍ර බානුගේ තෙවන පුත්‍රයා විය හැක.",
-    "claim to the throne eng": "Son of Vijaya Bahu VI and his Queen Sunetra Devi.Or the third son of Chandra Banu of Yapa Patuna (Jaffnapatnam)",
-    "description": "මුළු ලංකාවම එක්සේසත් කළ පාලකයෙක් විය. මේ රජු අභිෂේකයෙන් වසර 3කට පසු තම අගනුවර කෝට්ටේ ට ගෙන ගියේය. කෝට්ටේ නගරය අංග සම්පූර්ණ නගරයක් බවට අත් වූයේ මේ කාලයේ ය. මේ රජු සමයේ සිදු වූ වැදගත් සිදුවීම් අතර යාපනයේ පාලකයා ලෙස සපුමල් කුමරු පත් කිරීම, විජයනගර් අධිරාජ්‍යයේ තොටුපොළක් ආක්‍රමණය කිරීම, ක්‍රිස්තු වර්ෂ 1462 දී ජෝතිය සිටානන් ඇති කළ කැරැල්ලක් මැඬලීමට අම්බුළුගල කුමරු යැවීම හා වෙළඳ ගනුදෙනුවක් මුල් කරගෙන දකුණු ඉන්දියාවේ අදිවිරරාම පටුන ආක්‍රමණය කිරීම ද වෙයි."
+    "claim to the throne eng": "Son of Vijaya Bahu VI and his Queen Sunetra Devi. Or the third son of Chandra Banu of Yapa Patuna (Jaffnapatnam)",
+    "description": "මුළු ලංකාවම එක්සේසත් කළ පාලකයෙක් විය. මේ රජු අභිෂේකයෙන් වසර 3කට පසු තම අගනුවර කෝට්ටේ ට ගෙන ගියේය. කෝට්ටේ නගරය අංග සම්පූර්ණ නගරයක් බවට අත් වූයේ මේ කාලයේ ය. මේ රජු සමයේ සිදු වූ වැදගත් සිදුවීම් අතර යාපනයේ පාලකයා ලෙස සපුමල් කුමරු පත් කිරීම , විජයනගර් අධිරාජ්‍යයේ තොටුපොළක් ආක්‍රමණය කිරීම , ක්‍රිස්තු වර්ෂ 1462 දී ජෝතිය සිටානන් ඇති කළ කැරැල්ලක් මැඬලීමට අම්බුළුගල කුමරු යැවීම හා වෙළඳ ගනුදෙනුවක් මුල් කරගෙන දකුණු ඉන්දියාවේ අදිවිරරාම පටුන ආක්‍රමණය කිරීම ද වෙයි."
   },
   {
-    "name sin": "IIවන ජයබාහු,වීර පරාක්‍රමබාහු VII",
-    "name eng": "Jayabahu II,Vira Parakrama Bahu VII",
+    "name sin": "IIවන ජයබාහු , VII වීර පරාක්‍රමබාහු",
+    "name eng": "Jayabahu II , Vira Parakrama Bahu VII",
     "house eng": "Siri Sanga Bo",
     "house sin": "සිරි සඟ බෝ",
     "kingdom eng": "Kotte",
@@ -4408,19 +4070,17 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1467,
-    "end of reign": 1472,
     "years of reign": 5,
     "reign": {
       "gte": 1467,
       "lte": 1472
     },
     "claim to the throne sin": "VIවන පරාක්‍රමබාහු රජුගේ සත්‍ය දියණිය වූ උලකුඩය දේවියගේ පුත්‍රයායි.",
-    "claim to the throne eng": "Son of Parakrama Bahu II's natural daughter, Ulakudaya Devi",
-    "description": "තමාට රජකම නොලැබීම නිසා කෝපයට පත්, යාපනයේ පාලකයා වූ සපුමල් කුමරු කෝට්ටේට පැමිණ දෙවන ජයබාහු රජු මරා දමන ලදි."
+    "claim to the throne eng": "Son of Parakrama Bahu II's natural daughter , Ulakudaya Devi",
+    "description": "තමාට රජකම නොලැබීම නිසා කෝපයට පත් , යාපනයේ පාලකයා වූ සපුමල් කුමරු කෝට්ටේට පැමිණ දෙවන ජයබාහු රජු මරා දමන ලදි."
   },
   {
-    "name sin": "VIවන බුවනෙකබාහු,සපුමල් කුමාරයා",
+    "name sin": "VIවන බුවනෙකබාහු , සපුමල් කුමාරයා",
     "name eng": "Bhuvanaikabahu VI",
     "house eng": "Siri Sanga Bo",
     "house sin": "සිරි සඟ බෝ",
@@ -4434,8 +4094,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1472,
-    "end of reign": 1480,
     "years of reign": 8,
     "reign": {
       "gte": 1472,
@@ -4460,8 +4118,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1480,
-    "end of reign": 1484,
     "years of reign": 4,
     "reign": {
       "gte": 1480,
@@ -4486,42 +4142,14 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1484,
-    "end of reign": 1518,
     "years of reign": 34,
     "reign": {
       "gte": 1484,
       "lte": 1518
     },
     "claim to the throne sin": "VIවන පරාක්‍රමබාහුගේ පුත්‍රයෙකි.",
-    "claim to the throne eng": "Ambulagala Kumara.Son of Parakrama Bahu VI",
+    "claim to the throne eng": "Ambulagala Kumara. Son of Parakrama Bahu VI",
     "description": "අම්බුලුගල කුමාරයායි."
-  },
-  {
-    "name sin": "IXවන ධර්ම පරාක්‍රමබාහු",
-    "name eng": "Dharma Parakramabahu IX",
-    "house eng": "Siri Sanga Bo",
-    "house sin": "සිරි සඟ බෝ",
-    "kingdom eng": "Kotte",
-    "kingdom sin": "කෝට්ටේ",
-    "Temples eng": "",
-    "Temples sin": "",
-    "other constructions eng": "",
-    "other constructions sin": "",
-    "Inscriptions eng": "",
-    "Inscriptions sin": "",
-    "irrigation work eng": "",
-    "irrigation work sin": "",
-    "start of reign": 1509,
-    "end of reign": 1528,
-    "years of reign": 19,
-    "reign": {
-      "gte": 1509,
-      "lte": 1528
-    },
-    "claim to the throne sin": "VIIIවන වීර පරාක්‍රමබාහුගේ පුත්‍රයායි.",
-    "claim to the throne eng": "Son of Vira Parakrama Bahu VIII",
-    "description": ",කැලණියෙහි)"
   },
   {
     "name sin": "VIIවන විජයබාහු",
@@ -4538,16 +4166,38 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1509,
-    "end of reign": 1521,
     "years of reign": 12,
     "reign": {
       "gte": 1509,
       "lte": 1521
     },
     "claim to the throne sin": "IXවන ධර්ම පරාක්‍රමබාහුගේ සොහොයුරායි.",
-    "claim to the throne eng": "Brother of Dharma Parakrama Bahu IX.Rajah of Menik Kadavara",
-    "description": "මැණික් කඩවරහි රජු විය. ඓතිහාසික විජයබා කොල්ලය සිදුවූයේ මෙම රජුටය​.​ විජයබා කොල්ලය යනු 1521 දී සිදුවූ ඓතිහාසික සිද්ධියක් වන අතර එහිදී කෝට්ටේ රජුගේ (සත්වන විජයබාහු රජ) පුතුන් තිදෙන ඔවුන්ගේ පිය රජුට එරෙහිව කැරලි ගසමින් තම පියා මරා දමා රාජධානිය තමන් අතරෙහි බෙදා ගත්හ. සත්වන විජයබාහු රජ හට ඔහුගේ පළමු විවාහයෙන් පුතුන් තිදෙනෙකු වූ අතර ඔවුහූ බුවනෙකබාහු (පසුව කෝට්ටේ හත්වන බුවනෙකබාහු රජ ), පරරාජසිංහ (පසුව රයිගම බණ්ඩාර) සහ මායාදුන්නේ (පසුව සීතාවක මායාදුන්නේ රජ) නම් වූහ."
+    "claim to the throne eng": "Brother of Dharma Parakrama Bahu IX. Rajah of Menik Kadavara",
+    "description": "මැණික් කඩවරහි රජු විය. ඓතිහාසික විජයබා කොල්ලය සිදුවූයේ මෙම රජුටය​. ​ විජයබා කොල්ලය යනු 1521 දී සිදුවූ ඓතිහාසික සිද්ධියක් වන අතර එහිදී කෝට්ටේ රජුගේ (සත්වන විජයබාහු රජ) පුතුන් තිදෙන ඔවුන්ගේ පිය රජුට එරෙහිව කැරලි ගසමින් තම පියා මරා දමා රාජධානිය තමන් අතරෙහි බෙදා ගත්හ. සත්වන විජයබාහු රජ හට ඔහුගේ පළමු විවාහයෙන් පුතුන් තිදෙනෙකු වූ අතර ඔවුහූ බුවනෙකබාහු (පසුව කෝට්ටේ හත්වන බුවනෙකබාහු රජ ) , පරරාජසිංහ (පසුව රයිගම බණ්ඩාර) සහ මායාදුන්නේ (පසුව සීතාවක මායාදුන්නේ රජ) නම් වූහ."
+  },
+  {
+    "name sin": "IXවන ධර්ම පරාක්‍රමබාහු",
+    "name eng": "Dharma Parakramabahu IX",
+    "house eng": "Siri Sanga Bo",
+    "house sin": "සිරි සඟ බෝ",
+    "kingdom eng": "Kotte",
+    "kingdom sin": "කෝට්ටේ",
+    "Temples eng": "",
+    "Temples sin": "",
+    "other constructions eng": "",
+    "other constructions sin": "",
+    "Inscriptions eng": "",
+    "Inscriptions sin": "",
+    "irrigation work eng": "",
+    "irrigation work sin": "",
+    "years of reign": 19,
+    "reign": {
+      "gte": 1509,
+      "lte": 1528
+    },
+    "claim to the throne sin": "VIIIවන වීර පරාක්‍රමබාහුගේ පුත්‍රයායි.",
+    "claim to the throne eng": "Son of Vira Parakrama Bahu VIII",
+    "description": ""
   },
   {
     "name sin": "VIIවන බුවනෙකබාහු",
@@ -4564,8 +4214,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1521,
-    "end of reign": 1551,
     "years of reign": 30,
     "reign": {
       "gte": 1521,
@@ -4573,33 +4221,7 @@
     },
     "claim to the throne sin": "විජයබාහුගේ වැඩිමහල්ම පුත්‍රයායි.",
     "claim to the throne eng": "Eldest son of Vijaya Bahu",
-    "description": "බුවනෙකබාහුගේ රාජ්‍ය කාලයේ දී, මායාදුන්නේ තම පුතු වූ පළමු රාජසිංහ සමග එක්ව පෘතුගීසීන්ට එරෙහිව ඔවුන් පලවා හැරීම සඳහා අඛණ්ඩව සටන් කළ අතර බුවනෙකබාහුගෙන් කෝට්ටේ රාජධානිය ලබා ගැනීමට ඔහුව රජකමින් පහ කිරීමට තැත් කළහ. මෙහි ප්‍රතිඵලයක් ලෙස රජුට පෘතුගීසීන්ගේ පක්ෂය ගැනීමට සිදුවූයේ තම සොයුරාගෙන් තම රාජ්‍යය ආරක්ෂා කර ගැනීමට ඔවුන්ගේ බලය අවශ්‍ය වූ බැවිනි. තම පාලන සමය තුළ ඔහු දුර්වල පාලකයෙකු වූ අතර පෘතුගීසීන් මත අධික ලෙස යැපෙමින් අවසානයේ දී ඔවුන් සමග මිත්‍ර විය. කෙසේ වුවද, ඔහු ද ආගමික නියමයන් සම්බන්ධයෙන් පෘතුගීසීන් සමග විරුද්ධ විය."
-  },
-  {
-    "name sin": "ධර්මපාල,දොන් ජුවන් ධර්මපාල",
-    "name eng": "Dharmapala,Don Juan",
-    "house eng": "Siri Sanga Bo",
-    "house sin": "සිරි සඟ බෝ",
-    "kingdom eng": "Kotte",
-    "kingdom sin": "කෝට්ටේ",
-    "Temples eng": "",
-    "Temples sin": "",
-    "other constructions eng": "",
-    "other constructions sin": "",
-    "Inscriptions eng": "",
-    "Inscriptions sin": "",
-    "irrigation work eng": "",
-    "irrigation work sin": "",
-    "start of reign": 1551,
-    "end of reign": 1597,
-    "years of reign": 46,
-    "reign": {
-      "gte": 1551,
-      "lte": 1597
-    },
-    "claim to the throne sin": "VIIවන බුවනෙකබාහුගේ මුණුපුරා මෙන්ම උරුමකරුවා ද විය.",
-    "claim to the throne eng": "Grandson and heir of Bhuvanaikabahu VII",
-    "description": "ශ්‍රී ලංකාවේ පළමු කතෝලික රජු විය.ඉතා දුර්වල පාලකයෙකු වූ මෙතුමා කෝට්ටේ රාජධානිය පෘතුගීසීන්ට තෑගි ඔප්පුවක් මගින් පවරදුන්හ. මෙතුමා ඉතා ලබාල අවදියේදී පෟතුගීසින්ගේ වුවමනාවට සිහසුනට පත්වුවෙකු විය.  මෙතුමාට වැඩිකලක් සිහසුන හෙබවීමට නොහැකිවිය"
+    "description": "බුවනෙකබාහුගේ රාජ්‍ය කාලයේ දී ,  මායාදුන්නේ තම පුතු වූ පළමු රාජසිංහ සමග එක්ව පෘතුගීසීන්ට එරෙහිව ඔවුන් පලවා හැරීම සඳහා අඛණ්ඩව සටන් කළ අතර බුවනෙකබාහුගෙන් කෝට්ටේ රාජධානිය ලබා ගැනීමට ඔහුව රජකමින් පහ කිරීමට තැත් කළහ. මෙහි ප්‍රතිඵලයක් ලෙස රජුට පෘතුගීසීන්ගේ පක්ෂය ගැනීමට සිදුවූයේ තම සොයුරාගෙන් තම රාජ්‍යය ආරක්ෂා කර ගැනීමට ඔවුන්ගේ බලය අවශ්‍ය වූ බැවිනි.  තම පාලන සමය තුළ ඔහු දුර්වල පාලකයෙකු වූ අතර පෘතුගීසීන් මත අධික ලෙස යැපෙමින් අවසානයේ දී ඔවුන් සමග මිත්‍ර විය. කෙසේ වුවද , ඔහු ද ආගමික නියමයන් සම්බන්ධයෙන් පෘතුගීසීන් සමග විරුද්ධ විය."
   },
   {
     "name sin": "මායාදුන්නේ",
@@ -4616,20 +4238,42 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1521,
-    "end of reign": 1581,
     "years of reign": 60,
     "reign": {
       "gte": 1521,
       "lte": 1581
     },
     "claim to the throne sin": "VIIවන බුවනෙකබාහුගේ සොහොයුරායි. VIIවන විජයබාහුගේ පුත්‍රයායි.",
-    "claim to the throne eng": "Brother of Bhuvaneka Bahu VII.Son of Vijaya Bahu VII",
-    "description": "පෘතුගීසි ජාතිකයන්ගේ සැඩපරුෂ සතුරෙක් විය.  ඔහු තම ජීවිතයම කැපකරන ලද්දේ තම සොයුරු බුවනෙකබාහු, හෙවත් කෝට්ටේ රාජධානියේ රජ බලයෙන් පහ කර එයින් පෘතුගීසි කුමන්ත්‍රණ නිසා පීඩාවට පත්ව තිබූ ශ්‍රී ලංකාවේ නිදහස රැකගැනීමට ය."
+    "claim to the throne eng": "Brother of Bhuvaneka Bahu VII. Son of Vijaya Bahu VII",
+    "description": "පෘතුගීසි ජාතිකයන්ගේ සැඩපරුෂ සතුරෙක් විය.  ඔහු තම ජීවිතයම කැපකරන ලද්දේ තම සොයුරු බුවනෙකබාහු , හෙවත් කෝට්ටේ රාජධානියේ රජ බලයෙන් පහ කර එයින් පෘතුගීසි කුමන්ත්‍රණ නිසා පීඩාවට පත්ව තිබූ ශ්‍රී ලංකාවේ නිදහස රැකගැනීමට ය."
   },
   {
-    "name sin": "Iවන රාජසිංහ,ටිකිරි බණ්ඩා",
-    "name eng": "Rajasinha I,Tikiri Banda",
+    "name sin": "ධර්මපාල , දොන් ජුවන් ධර්මපාල",
+    "name eng": "Dharmapala , Don Juan",
+    "house eng": "Siri Sanga Bo",
+    "house sin": "සිරි සඟ බෝ",
+    "kingdom eng": "Kotte",
+    "kingdom sin": "කෝට්ටේ",
+    "Temples eng": "",
+    "Temples sin": "",
+    "other constructions eng": "",
+    "other constructions sin": "",
+    "Inscriptions eng": "",
+    "Inscriptions sin": "",
+    "irrigation work eng": "",
+    "irrigation work sin": "",
+    "years of reign": 46,
+    "reign": {
+      "gte": 1551,
+      "lte": 1597
+    },
+    "claim to the throne sin": "VIIවන බුවනෙකබාහුගේ මුණුපුරා මෙන්ම උරුමකරුවා ද විය.",
+    "claim to the throne eng": "Grandson and heir of Bhuvanaikabahu VII",
+    "description": "ශ්‍රී ලංකාවේ පළමු කතෝලික රජු විය. ඉතා දුර්වල පාලකයෙකු වූ මෙතුමා කෝට්ටේ රාජධානිය පෘතුගීසීන්ට තෑගි ඔප්පුවක් මගින් පවරදුන්හ. මෙතුමා ඉතා ලබාල අවදියේදී පෟතුගීසින්ගේ වුවමනාවට සිහසුනට පත්වුවෙකු විය.  මෙතුමාට වැඩිකලක් සිහසුන හෙබවීමට නොහැකිවිය"
+  },
+  {
+    "name sin": "Iවන රාජසිංහ , ටිකිරි බණ්ඩා",
+    "name eng": "Rajasinha I , Tikiri Banda",
     "house eng": "Siri Sanga Bo",
     "house sin": "සිරි සඟ බෝ",
     "kingdom eng": "Seethawaka",
@@ -4642,8 +4286,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1581,
-    "end of reign": 1593,
     "years of reign": 12,
     "reign": {
       "gte": 1581,
@@ -4654,8 +4296,8 @@
     "description": "එතුමාගේ මහත් එඩිතර බව හා දේශප්‍රේමීත්වය පිළිබඳව ඉතිහාසයේ සඳහන් වේ. සීතාවක රාජධානියේ මායාදුන්නේ රජතුමාට දාව ටිකිරි බණ්ඩාර නමින් උපත ලැබූ මෙතුමාට පෘතුගීසි හමුදා සමඟ සිදු කළ බිහිසුණු සටන් වලින් පසුව \"රාජසිංහ\" යන නාමය ලැබිණි."
   },
   {
-    "name sin": "Iවන විමලධර්මසූරිය,‍ඔස්ට්‍රියාවේ දොන් ජුවාන්, කොනප්පු බණ්ඩාර",
-    "name eng": "Vimaladharmasuriya I,Don Juan da Austria",
+    "name sin": "Iවන විමලධර්මසූරිය , ‍ඔස්ට්‍රියාවේ දොන් ජුවාන් , කොනප්පු බණ්ඩාර",
+    "name eng": "Vimaladharmasuriya I , Don Juan da Austria",
     "house eng": "Dinajara",
     "house sin": "දිනරාජ",
     "kingdom eng": "Kandy",
@@ -4668,8 +4310,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1590,
-    "end of reign": 1604,
     "years of reign": 14,
     "reign": {
       "gte": 1590,
@@ -4677,7 +4317,7 @@
     },
     "claim to the throne sin": "විජයසුන්දර බණ්ඩාරගේ පුත්‍රයායි.",
     "claim to the throne eng": "Son of Vijayasundara Bandara",
-    "description": "මුළු දිවයිනම ප්‍රථම වතාවට මහනුවර රාජධානිය යටතේ පාලනය ගෙන යන ලදි. රත්නපුර කුරුවිට දෙල්ගමුවේ කුරහන්ගලක සඟවා තිබූ දන්ත ධාතූන් වහන්සේද සෙංකඩගලට වැඩමවා රාජ්‍යත්වයට නියම හිමිකම ඇති කරගත්තෙන් නිල වශයෙන් මුළු ලංකාවටම රජ විය.ලංකාවේ ආර්ථිකය ශක්තිමත් කිරීමට ගොවාතැන හා කපුවගාව දියුණුකිරීම, කොත්මලේ වලපනේ නගරවල යකඩ හා වානේ කර්මාන්ත දියුණු කිරීම, ලුණුවෙඩි කර්මාන්තය දියුනුනිරීම සිදුකළහ."
+    "description": "මුළු දිවයිනම ප්‍රථම වතාවට මහනුවර රාජධානිය යටතේ පාලනය ගෙන යන ලදි. රත්නපුර කුරුවිට දෙල්ගමුවේ කුරහන්ගලක සඟවා තිබූ දන්ත ධාතූන් වහන්සේද සෙංකඩගලට වැඩමවා රාජ්‍යත්වයට නියම හිමිකම ඇති කරගත්තෙන් නිල වශයෙන් මුළු ලංකාවටම රජ විය. ලංකාවේ ආර්ථිකය ශක්තිමත් කිරීමට ගොවාතැන හා කපුවගාව දියුණුකිරීම , කොත්මලේ වලපනේ නගරවල යකඩ හා වානේ කර්මාන්ත දියුණු කිරීම , ලුණුවෙඩි කර්මාන්තය දියුනුනිරීම සිදුකළහ."
   },
   {
     "name sin": "සෙනරත්",
@@ -4694,8 +4334,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1604,
-    "end of reign": 1635,
     "years of reign": 31,
     "reign": {
       "gte": 1604,
@@ -4720,8 +4358,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1635,
-    "end of reign": 1687,
     "years of reign": 52,
     "reign": {
       "gte": 1635,
@@ -4729,7 +4365,7 @@
     },
     "claim to the throne sin": "සෙනරත් රජුගේ සහ දෝන කැතරිනා බිසව‍ගේ පුත්‍රයායි.",
     "claim to the throne eng": "Son of Senarat and Dona Catherina",
-    "description": "පෘතුග්‍රීසීන් ලංකාවෙන් පළවා හැරීමට ලන්දේසීන්ගේ උදව් පැතුවේය.රාජසිංහ රජුගේ කාලයේ සිදු වූ ඉතා වැදගත් සිදුවීමක් වූයේ ලන්දේසීන් විසින් පෘතුග්‍රීසීන් පලවා හැරීමයි."
+    "description": "පෘතුග්‍රීසීන් ලංකාවෙන් පළවා හැරීමට ලන්දේසීන්ගේ උදව් පැතුවේය. රාජසිංහ රජුගේ කාලයේ සිදු වූ ඉතා වැදගත් සිදුවීමක් වූයේ ලන්දේසීන් විසින් පෘතුග්‍රීසීන් පලවා හැරීමයි."
   },
   {
     "name sin": "IIවන විමලධර්මසූරිය",
@@ -4746,8 +4382,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1687,
-    "end of reign": 1707,
     "years of reign": 20,
     "reign": {
       "gte": 1687,
@@ -4759,7 +4393,7 @@
   },
   {
     "name sin": "ශ්‍රී වීර පරාක්‍රම නරේන්ද්‍රසිංහ",
-    "name eng": "Vira Narendra Sinha,Sri Vira Parakrama Narendra Singha",
+    "name eng": "Vira Narendra Sinha , Sri Vira Parakrama Narendra Singha",
     "house eng": "Dinajara",
     "house sin": "දිනරාජ",
     "kingdom eng": "Kandy",
@@ -4772,8 +4406,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1707,
-    "end of reign": 1739,
     "years of reign": 32,
     "reign": {
       "gte": 1707,
@@ -4781,7 +4413,7 @@
     },
     "claim to the throne sin": "IIවන විමලධර්මසූරිය රජුගේ පුත්‍රයායි.",
     "claim to the throne eng": "Son of Vimala Dharma Suriya II",
-    "description": "සිංහල රාජ වංශයේ අන්තිම සිංහල රජුයි.එතුමා උගත් මෙන්ම ශ්‍රද්ධාවන්ත රජ කෙනෙකු ලෙස සළකනු ලැබුවේය.එතුමා ලන්දේසි ආක්‍රමණිකයන් සමග සමාදානයෙන් කටයුතු කලේය.එතුමාගේ බිසව දකුණු ඉන්දියාවේ මදු‍රෙයි නගරයේ නායක්කර් රාජකීය පවුලේ කුමාරිකාවක් විය. රජුට සිහසුනට පත් කිරිම සදහා දරුවෙකු ලැබුණේ නැත. එම නිසා රජු ඔහුගේ අනුප්‍රාප්තිකයා ලෙස තම පළමු බිසවගේ සහෝදරයා නම් කළේය."
+    "description": "සිංහල රාජ වංශයේ අන්තිම සිංහල රජුයි. එතුමා උගත් මෙන්ම ශ්‍රද්ධාවන්ත රජ කෙනෙකු ලෙස සළකනු ලැබුවේය. එතුමා ලන්දේසි ආක්‍රමණිකයන් සමග සමාදානයෙන් කටයුතු කලේය. එතුමාගේ බිසව දකුණු ඉන්දියාවේ මදු‍රෙයි නගරයේ නායක්කර් රාජකීය පවුලේ කුමාරිකාවක් විය. රජුට සිහසුනට පත් කිරිම සදහා දරුවෙකු ලැබුණේ නැත. එම නිසා රජු ඔහුගේ අනුප්‍රාප්තිකයා ලෙස තම පළමු බිසවගේ සහෝදරයා නම් කළේය."
   },
   {
     "name sin": "ශ්‍රී විජය රාජසිංහ",
@@ -4798,8 +4430,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1739,
-    "end of reign": 1747,
     "years of reign": 8,
     "reign": {
       "gte": 1739,
@@ -4807,7 +4437,7 @@
     },
     "claim to the throne sin": "වීර නරේන්ද්‍ර සිංහගේ මස්සිනා",
     "claim to the throne eng": "Brother-in-law of Vira Narendra Sinha",
-    "description": "රටේ නොයෙක් ස්ථානවල ගල් ලෙන්වල බුදුන්ගේ සැතපෙන පිළිම, හිටි පිළිම, හා හිඳි පිළිම ජීවමාන ප්‍රමාණයට ගලින් නිම කිරීමට කටයුතු කළේය.එවකට මුහුදු බඩ ප්‍රදේශ පාලනය කරමින් සිටි ලන්දේසීන් සමග වෙළඳ කටයුතු මුල් කරගෙන සටන් කීපයක නියැලීමට රජුට සිදු විය."
+    "description": "රටේ නොයෙක් ස්ථානවල ගල් ලෙන්වල බුදුන්ගේ සැතපෙන පිළිම , හිටි පිළිම , හා හිඳි පිළිම ජීවමාන ප්‍රමාණයට ගලින් නිම කිරීමට කටයුතු කළේය. එවකට මුහුදු බඩ ප්‍රදේශ පාලනය කරමින් සිටි ලන්දේසීන් සමග වෙළඳ කටයුතු මුල් කරගෙන සටන් කීපයක නියැලීමට රජුට සිදු විය."
   },
   {
     "name sin": "කීර්ති ශ්‍රී රාජසිංහ",
@@ -4824,8 +4454,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1747,
-    "end of reign": 1782,
     "years of reign": 35,
     "reign": {
       "gte": 1747,
@@ -4833,7 +4461,7 @@
     },
     "claim to the throne sin": "ශ්‍රී විජය රාජසිංහගේ මස්සිනා",
     "claim to the throne eng": "Brother-in-law of Sri Vijaya Rajasinha",
-    "description": "සාහිත්‍යය සහ ආගමික කටයුතුවල අභිවෘද්ධිය පිණිස කාලය වැය කලේය​.ලන්දේසීන්ගේ ද උදව් ලබාගෙන බුද්ධාගමේ දියුණුව සඳහා සියමෙන් (තායිලන්තයෙන්) භික්ෂූන් වහන්සේලා ගෙන්වා ගත්තේය.ලන්දේසි බලකොටු සහ මුර පලවල්වලට පහර දිය​"
+    "description": "සාහිත්‍යය සහ ආගමික කටයුතුවල අභිවෘද්ධිය පිණිස කාලය වැය කලේය​. ලන්දේසීන්ගේ ද උදව් ලබාගෙන බුද්ධාගමේ දියුණුව සඳහා සියමෙන් (තායිලන්තයෙන්) භික්ෂූන් වහන්සේලා ගෙන්වා ගත්තේය. ලන්දේසි බලකොටු සහ මුර පලවල්වලට පහර දිය​"
   },
   {
     "name sin": "ශ්‍රී රාජාධි රාජසිංහ",
@@ -4850,8 +4478,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1782,
-    "end of reign": 1798,
     "years of reign": 16,
     "reign": {
       "gte": 1782,
@@ -4859,11 +4485,11 @@
     },
     "claim to the throne sin": "කිර්ති ශ්‍රී රාජසිංහගේ සහෝදරයා",
     "claim to the throne eng": "Brother of Kirti Sri Rajasinha",
-    "description": "තම සහෝදරයා සමග මදුරෙයි හි සිට මෙහි පැමිණියේ කුඩා ළමයෙකුව සිටියදීය. මේ හේතුව නිසාම ඔහු හැදී වැඩුනේ උඩරැටියෙකු පරිද්දෙනි.දරුවෙකු නොමැතිව, අනුප්‍රාප්තිකයෙකු ද නම් නොකර ඔහු මිය ගියේය. සියලු වගකීම් පිළිමතලාවේ වෙත පැවරුණි."
+    "description": "තම සහෝදරයා සමග මදුරෙයි හි සිට මෙහි පැමිණියේ කුඩා ළමයෙකුව සිටියදීය. මේ හේතුව නිසාම ඔහු හැදී වැඩුනේ උඩරැටියෙකු පරිද්දෙනි. දරුවෙකු නොමැතිව , අනුප්‍රාප්තිකයෙකු ද නම් නොකර ඔහු මිය ගියේය. සියලු වගකීම් පිළිමතලාවේ වෙත පැවරුණි."
   },
   {
-    "name sin": "ශ්‍රී වික්‍රම රාජසිංහ,IVවන රාජසිංහ,කන්නසාමි",
-    "name eng": "Sri Vikrama Rajasinha, Rajasinha IV,Kannasamy",
+    "name sin": "ශ්‍රී වික්‍රම රාජසිංහ , IVවන රාජසිංහ , කන්නසාමි",
+    "name eng": "Sri Vikrama Rajasinha , Rajasinha IV , Kannasamy",
     "house eng": "Nayak",
     "house sin": "නායක්කර්",
     "kingdom eng": "Kandy",
@@ -4876,8 +4502,6 @@
     "Inscriptions sin": "",
     "irrigation work eng": "",
     "irrigation work sin": "",
-    "start of reign": 1798,
-    "end of reign": 1815,
     "years of reign": 17,
     "reign": {
       "gte": 1798,
@@ -4885,6 +4509,6 @@
     },
     "claim to the throne sin": "ශ්‍රී රාජාධි රාජසිංහගේ බෑණා",
     "claim to the throne eng": "Nephew of Sri Rajadhi Rajasinha",
-    "description": "හෙළ ශ්‍රී ලංකාවේ රාජධානිය ඉංග්‍රීසීන්ට යටත්වීමට පෙර එහි අවසාන රජතුමා විය.ඛ්‍රිතාන්‍යයන් විසින් මහනුවර යුද්ධය අවසානයේදී ඔහු පරාජය කොට පහ කරන ලදි."
+    "description": "හෙළ ශ්‍රී ලංකාවේ රාජධානිය ඉංග්‍රීසීන්ට යටත්වීමට පෙර එහි අවසාන රජතුමා විය. ඛ්‍රිතාන්‍යයන් විසින් මහනුවර යුද්ධය අවසානයේදී ඔහු පරාජය කොට පහ කරන ලදි."
   }
 ]
